@@ -1,7 +1,7 @@
 import requests
 
 def check_api_health():
-    url = "https://ml-hotel-cancellation-prod-d6b6251be054.herokuapp.com/"
+    url = "https://hotel-cancellation-ans-5feb2a4e271c.herokuapp.com/"
     try:
         response = requests.get(url)
         if response.status_code == 200:

@@ -4,7 +4,7 @@ import requests
 import json
 
 def simulate_api_load():
-    url = "https://ml-hotel-cancellation-prod-d6b6251be054.herokuapp.com/predict"
+    url = "https://hotel-cancellation-ans-5feb2a4e271c.herokuapp.com/predict"
     payload = {
         "data": {
             "hotel": 1,  
