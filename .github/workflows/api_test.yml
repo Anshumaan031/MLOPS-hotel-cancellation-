@@ -1,0 +1,34 @@
+name: Deployment Tests Workflow
+
+on:
+  deployment_status:
+    branches:
+      - main
+  conditions: [success]
+
+jobs:
+  run-tests:
+    runs-on: ubuntu-latest
+    if: github.event.deployment_status.state == 'success'
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python 3.8
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.8'
+
+    - name: Install dependencies
+      run: |
+        pip install -r requirements.txt
+
+    - name: Run test_api.py
+      run: python tests/test_API.py
+
+    - name: Run test_failure.py
+      run: python tests/test_failure.py
+
+    - name: Run test_load.py
+      run: python tests/test_load.py
