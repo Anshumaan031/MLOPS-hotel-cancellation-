@@ -28,5 +28,5 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        # tags: ghcr.io/mericamp97/hotel-cancellation-model:latest
+        tags: ghcr.io/Anshumaan031/MLOPS-hotel-cancellation-:latest
 
