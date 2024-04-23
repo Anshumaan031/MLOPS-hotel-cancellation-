@@ -28,6 +28,6 @@ jobs:
         context: .
         file: ./Dockerfile
         push: true
-        tags: ghcr.io/Anshumaan031/mlops-hotel-cancellation:latest
+        tags: ghcr.io/anshumaan031/mlops-hotel-cancellation:latest
 
 
