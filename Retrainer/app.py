@@ -5,6 +5,7 @@ import pandas as pd
 from custom_preprocessor import CustomPreprocessor
 from Model_Source_Code import train_and_evaluate_model
 import os
+from git import Repo 
 
 app = Flask(__name__, static_folder='static')
 
@@ -54,6 +55,21 @@ def predict():
 
 @app.route('/retrain', methods=['POST'])
 def retrain():
+
+    #Get the latest source code from Github
+    repo_url = 'https://github.com/Anshumaan031/mlops-hotel-cancellation.git'
+    local_dir = 'Model_Source_Code'
+    
+    # Clone or pull the repository to the local directory
+    if not os.path.exists(local_dir):
+        Repo.clone_from(repo_url, local_dir)
+    else:
+        repo = Repo(local_dir)
+        repo.remotes.origin.pull()
+
+    # Import the updated train_and_evaluate_model function from the Retrainer branch
+    from Model_Source_Code import train_and_evaluate_model
+
     global Traindf
     Traindf = pd.read_csv('hotel_bookings_train_data.csv', delimiter=';')
     Traindf['booking_date'] = pd.to_datetime(Traindf['booking_date'], format='%d/%m/%Y')
