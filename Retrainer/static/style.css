@@ -1,0 +1,94 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Alice blue background */
+    color: #333333; /* Dark gray text */
+    font-size: 25px;
+}
+
+h1 {
+    color: #5f9ea0; /* Cadet blue headers */
+    text-align: center;
+    background-color: #e0ffff; /* Light cyan background */
+    padding: 20px 0;
+    margin-top: 0;
+    border-bottom: 2px solid #b0e0e6; /* Powder blue border */
+}
+
+h2 {
+    color: #4682b4; /* Steel blue headers */
+    margin-left: 20px;
+}
+
+div {
+    margin: 20px;
+    padding: 15px;
+    background-color: #e6e6fa; /* Lavender background */
+    border: 1px solid #d3d3d3; /* Light gray border */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Slight shadow */
+}
+
+div:hover {
+    box-shadow: 0 6px 12px rgba(0,0,0,0.15); /* Slight shadow hover effect */
+}
+
+.my-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.my-table th, .my-table td {
+    padding: 8px;
+    border: 1px solid #ccc; /* Grey border */
+}
+
+.my-table th {
+    background-color: #5f9ea0;
+    color: white;
+}
+
+.my-table tr:nth-child(even) {
+    background-color: #f2f2f2; /* Light grey background for even rows */
+}
+
+.my-table tr:nth-child(odd) {
+    background-color: white; /* White background for odd rows */
+}
+
+.my-table tr:hover {
+    background-color: #f2f2f2; /* Light grey background on hover */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vh; /* Example height, adjust as needed */
+}
+
+button {
+    font-size: 20px; /* Large text size for readability */
+    font-weight: bold;
+    padding: 15px 30px; /* Generous padding for a larger appearance */
+    background-color: #5f9ea0; /* Cadet blue background to match headers */
+    color: white; /* White text for contrast */
+    border: none; /* No border for a modern look */
+    border-radius: 5px; /* Slightly rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover for usability */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transition for visual feedback */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Shadow for depth */
+}
+
+button:hover, button:focus {
+    background-color: #4682b4; /* Steel blue for hover state to match h2 headers */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+    box-shadow: 0 6px 12px rgba(0,0,0,0.3); /* Enhanced shadow on hover for more depth */
+}
+
+button:active {
+    background-color: #5f9ea0; /* Return to original background color on click */
+    transform: translateY(1px); /* Push effect on click */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.2); /* Less shadow on click for 'pressed' effect */
+}
