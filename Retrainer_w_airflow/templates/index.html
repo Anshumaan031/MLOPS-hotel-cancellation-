@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Analysis Alerts</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>New Data Analysis Alerts for ML and Prediction</h1>
+    {% for result in analysis_results %}
+        <h2>{{ result.title }}</h2>
+        <div>{{ result.message|safe  }}</div>
+    {% endfor %}
+<!-- button -->
+<div class="container">
+<button id="predict-btn">I accept all the above information. MAKE PREDICTION</button>
+</div>
+
+    <!-- Prediction Results Table -->
+    <div id="prediction-results">
+        <h1>Prediction Results</h1>
+        <table class="my-table">
+            <thead>
+                <tr>
+                    <th>Booking ID</th>
+                    <th>Predicted Cancellation</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for index, row in prediction_df.iterrows() %}
+                <tr>
+                    <td>{{ row['booking_id'] }}</td>
+                    <td>{{ row['predicted_cancellation'] }}</td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Retrain Model Button -->
+    <div class="retrain-button">
+        <form action="/retrain" method="post">
+            <button type="submit">Retrain Model</button>
+        </form>
+    </div>
+</body>
+</html>
