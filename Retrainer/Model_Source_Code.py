@@ -2,10 +2,12 @@ import pandas as pd
 import numpy as np
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import OneHotEncoder, StandardScaler
-from sklearn.ensemble import AdaBoostClassifier
 from sklearn.metrics import classification_report
 from sklearn.pipeline import Pipeline
 import joblib
+import xgboost
+
+from xgboost import XGBClassifier
 
 feature_names = []
 
@@ -78,7 +80,7 @@ def train_and_evaluate_model(hotel_bookings_train_data):
     # Model training
     model_pipe = Pipeline(steps=[
         ('scaler', StandardScaler()),  # Standardizing numerical features
-        ('classifier', AdaBoostClassifier())  # AdaBoostClassifier
+        ('classifier', XGBClassifier(learning_rate=0.121333233516, max_depth=3, n_estimators=300))  # XGBoostClassifier
     ])
 
     # Fitting the model
