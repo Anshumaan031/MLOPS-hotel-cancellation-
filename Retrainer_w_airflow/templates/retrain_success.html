@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Model Retrained Successfully</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</head>
+<body>
+    <h1>Model Retrained Successfully</h1>
+    <div class="retrain-success">
+        <p>Model retrained successfully!</p>
+    </div>
+    <h2>Classification Report:</h2>
+    <div class="class-report">
+        <p>{{ class_report }}</p>
+    </div>
+</body>
+</html>
