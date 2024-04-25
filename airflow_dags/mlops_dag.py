@@ -52,7 +52,6 @@ def input_drift_detection():
     print(df.shape)
     cat_col = ['meal','country','market_segment','distribution_channel','is_repeated_guest','reserved_room_type','assigned_room_type','deposit_type','agent','customer_type']
     cat_col_eval = ['meal','market_segment','distribution_channel','is_repeated_guest','reserved_room_type','assigned_room_type','deposit_type','customer_type']
-    # numerical_cols = ['lead_time','stays_in_weekend_nights','stays_in_week_nights', 'adults', 'children', 'babies','previous_cancellations','previous_bookings_not_canceled','days_in_waiting_list','adr','total_of_special_requests']
     numerical_cols = ['lead_time','stays_in_weekend_nights','stays_in_week_nights', 'adults', 'babies','previous_cancellations','previous_bookings_not_canceled','days_in_waiting_list','adr','total_of_special_requests']
     binary_cols = ['is_canceled','is_repeated_guest','required_car_parking_spaces']
     categorical_cols = ['hotel','meal','country', 'market_segment', 'distribution_channel','reserved_room_type','assigned_room_type', 'booking_changes', 'deposit_type', 'agent','customer_type','reservation_status']
@@ -136,8 +135,8 @@ def input_drift_detection():
             outlier_values = df.loc[index, outlier_columns].to_dict()
             outlier_message = f"Booking ID {booking_id} outlier values: {outlier_values} "
             print(outlier_message)
-        
             message_outliers_numeric.append(outlier_message)
+
         
     print('Check for non-binary values in binary columns')
     for col in binary_cols:
@@ -161,7 +160,6 @@ def input_drift_detection():
     print('T-TEST AND K-S TEST')
     title_ttest = 'T-TEST RESULTS. Significantly different columns'
     title_kstest = 'K-S TEST RESULTS. Significantly different columns'
-    
     num_cols = [
         'lead_time', 'stays_in_weekend_nights', 'stays_in_week_nights',
         'adults', 'babies', 'previous_cancellations',
@@ -196,7 +194,7 @@ def input_drift_detection():
             col, 
             p_values_ttest[col], 
             means[col][0],
-            means[col][1], 
+            means[col][1],
             ((means[col][1] - means[col][0]) / means[col][0] * 100) if means[col][0] != 0 else 'Infinity' 
         ) 
         for col in num_cols 
@@ -341,7 +339,8 @@ def preprocess_test_data(input_df):
         if col in test_data.columns:
             test_data[col] = np.log(test_data[col] + 1)
     
-    columns_to_drop = ['booking_id', 'arrival_date', 'booking_date']
+    # columns_to_drop = ['booking_id', 'arrival_date', 'booking_date']
+    columns_to_drop = ['arrival_date', 'booking_date']
     test_data.drop(columns=columns_to_drop, inplace=True)
     
     return test_data
@@ -388,7 +387,7 @@ def make_prediction(row):
     response = requests.post(url, headers=headers, data=payload_json)
 
     if response.status_code == 200:
-        print("API call successful!")
+        print("API call successful for booking {}!".format(row['booking_id']))
     else:
         print(f"Error: {response.text}")
 
@@ -422,15 +421,15 @@ def get_existing_predictions():
 
 
 def show_prediction():
+    start_time = time.time()
     df, df_hist = read_data_from_warehouse()
     current_bookingpred_ids = get_existing_predictions()
     engine = create_engine('mysql://root:password@localhost:3306/hotel_datawarehouse', echo=False)
     db_datawarehouse = engine.connect()
-    df = df.head(5)
-    df_temp = df.copy()
+    df = df.head(5) # taking only first 5 rows for making predictions as we are using free heroku app which allows limited API calls per day
     df = preprocess_test_data(df)
     prediction_df = pd.DataFrame(columns=['booking_id', 'predicted_cancellation'])
-    booking_ids = df_temp['booking_id']
+    booking_ids = df['booking_id']
     print(booking_ids)
     predictions = []
     probabilites = []
@@ -440,7 +439,7 @@ def show_prediction():
         # pred = dummy_make_prediction()
         predictions.append(pred['prediction'])
         probabilites.append(pred['probability'])
-        if count > 1:
+        if count > 0:
             break
         count = count + 1
 
@@ -456,11 +455,28 @@ def show_prediction():
     delta_prediction_df.to_sql(name='booking_predictions', con=db_datawarehouse, if_exists='append', index=False)
     db_datawarehouse.close()
 
+    end_time = time.time()
+    execution_time = end_time - start_time
+    num_entries = len(df)
+    avg_time = execution_time / num_entries
+
+    print("Total time taken for showing predictions:", execution_time)
+    print("Number of bookings to predict:", num_entries)
+    print("Average time taken to make predictions:", avg_time)
+
     return
 
 
+def check_initial_period():
+    current_period = int(Variable.get('current_period', default_var=0)) - 1
+    if current_period > 0:
+        return 'wait_for_dataops_task'
+    else:
+        return 'end'
+
+
 with DAG(
-    'gp_mlops2',
+    'gp_mlops',
     default_args={
         'depends_on_past': False,
         'email': ['685@doonschool.com'],
@@ -503,12 +519,19 @@ with DAG(
 
     wait_for_dataops_task = ExternalTaskSensor(
         task_id='wait_for_dataops_task',
-        external_dag_id='gp_dataops_2', 
-        external_task_id='data_profiling_after',  
-        timeout=510,  
-        mode='reschedule',  
-        poke_interval=30,  
+        external_dag_id='gp_dataops_2',
+        external_task_id='data_profiling_after',
+        timeout=510,
+        mode='reschedule',
+        poke_interval=30,
         dag=dag,
     )
 
-    start >> wait_for_dataops_task >> input_drift_detection >> show_prediction >> end
+    branch_task_check_initial_period = BranchPythonOperator(
+        task_id='check_initial_period',
+        provide_context=True,
+        python_callable=check_initial_period
+    )
+
+    start >> branch_task_check_initial_period >> [wait_for_dataops_task, end]
+    wait_for_dataops_task >> input_drift_detection >> show_prediction >> end

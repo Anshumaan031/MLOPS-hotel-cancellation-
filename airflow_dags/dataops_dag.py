@@ -226,6 +226,7 @@ def kpi_threshold_check():
     df_current = df_current[df_current['stays_in_week_nights'].between(0, 50)]
     df_current = df_current[df_current['required_car_parking_spaces'].between(0, 8)] 
 
+    # Calculate compliance rate
     final_row_count = len(df_current)
     compliance_rate = (final_row_count / initial_row_count) * 100
     print(final_row_count)
@@ -718,9 +719,7 @@ with DAG(
         python_callable=check_and_update_current_period
     )
 
-    start = DummyOperator(task_id='start')
-
-    start >> branch_task_check_update_current_period >> [clean_datawarehouse, initial_load_current_data]
+    branch_task_check_update_current_period >> [clean_datawarehouse, initial_load_current_data]
     clean_datawarehouse >> create_datawarehouse_and_upload_hist
     initial_load_current_data >> data_profiling_before >> kpi_threshold_check >> replace_negative_values >> handling_hotel_col_nulls >> handling_children_and_babies_cols_nulls
     handling_children_and_babies_cols_nulls >> handling_meals_col_nulls >> handling_marketsegment_col_nulls >> handling_distchannels_col_nulls >> handling_reappeardguest_col_nulls
