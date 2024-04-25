@@ -1,0 +1,731 @@
+booking_id,hotel,is_canceled,lead_time,arrival_date_year,arrival_date_month,arrival_date_week_number,arrival_date_day_of_month,stays_in_weekend_nights,stays_in_week_nights,adults,children,babies,meal,country,market_segment,distribution_channel,is_repeated_guest,previous_cancellations,previous_bookings_not_canceled,reserved_room_type,assigned_room_type,booking_changes,deposit_type,agent,company,days_in_waiting_list,customer_type,adr,required_car_parking_spaces,total_of_special_requests,reservation_status,reservation_status_date,arrival_date,booking_date
+13222,Resort Hotel,1,3,2017,August,31,5,2,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,230.0,0,1,Canceled,2017-08-03,2017-08-05,2017-08-02
+13326,Resort Hotel,1,0,2017,August,32,10,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,8.0,0,0,Canceled,2017-08-10,2017-08-10,2017-08-10
+13381,Resort Hotel,1,0,2017,August,33,13,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,207.0,0,0,No-Show,2017-08-13,2017-08-13,2017-08-13
+13402,Resort Hotel,1,0,2017,August,33,14,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,250.0,,0,Transient,225.0,0,0,Canceled,2017-08-14,2017-08-14,2017-08-14
+13403,Resort Hotel,1,0,2017,August,33,14,1,0,2,0.0,0,BB,MAR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,230.0,0,0,Canceled,2017-08-14,2017-08-14,2017-08-14
+13404,Resort Hotel,1,0,2017,August,33,14,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,264.0,0,0,Canceled,2017-08-14,2017-08-14,2017-08-14
+13422,Resort Hotel,1,13,2017,August,33,14,2,5,2,0.0,0,BB,PRT,Corporate,Corporate,0,0,0,D,D,0,No Deposit,,531.0,0,Transient,159.0,0,0,Canceled,2017-08-07,2017-08-14,2017-08-01
+13435,Resort Hotel,1,1,2017,August,33,15,0,1,2,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,149.0,0,0,Canceled,2017-08-14,2017-08-15,2017-08-14
+13436,Resort Hotel,1,7,2017,August,33,15,0,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,190.0,0,1,Canceled,2017-08-08,2017-08-15,2017-08-08
+13437,Resort Hotel,1,6,2017,August,33,15,0,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,,,0,Transient,190.0,0,1,Canceled,2017-08-09,2017-08-15,2017-08-09
+13453,Resort Hotel,1,15,2017,August,33,16,0,1,2,2.0,0,BB,ESP,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,310.0,0,0,Canceled,2017-08-04,2017-08-16,2017-08-01
+13468,Resort Hotel,1,0,2017,August,33,17,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,200.0,0,0,Canceled,2017-08-17,2017-08-17,2017-08-17
+13469,Resort Hotel,1,16,2017,August,33,17,0,1,2,2.0,0,HB,ESP,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,308.0,0,1,Canceled,2017-08-01,2017-08-17,2017-08-01
+13470,Resort Hotel,1,2,2017,August,33,17,0,1,1,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,215.0,0,2,Canceled,2017-08-15,2017-08-17,2017-08-15
+13472,Resort Hotel,1,2,2017,August,33,17,0,1,1,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,215.0,0,2,Canceled,2017-08-15,2017-08-17,2017-08-15
+13473,Resort Hotel,1,0,2017,August,33,17,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,F,F,0,No Deposit,,,0,Transient,200.0,0,0,Canceled,2017-08-17,2017-08-17,2017-08-17
+13474,Resort Hotel,0,3,2017,August,33,17,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,0,0,0,A,A,0,No Deposit,,20.0,0,Transient,135.0,0,0,Check-Out,2017-08-18,2017-08-17,2017-08-14
+13476,Resort Hotel,1,13,2017,August,33,17,0,2,3,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,250.0,,0,Transient,241.0,0,0,Canceled,2017-08-17,2017-08-17,2017-08-04
+13489,Resort Hotel,1,12,2017,August,33,17,1,3,2,0.0,0,HB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,247.0,0,1,Canceled,2017-08-14,2017-08-17,2017-08-05
+13531,Resort Hotel,1,8,2017,August,33,18,2,5,2,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,E,E,0,No Deposit,40.0,,0,Transient,146.0,0,0,Canceled,2017-08-14,2017-08-18,2017-08-10
+13537,Resort Hotel,1,2,2017,August,33,19,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,E,E,0,No Deposit,,,0,Transient,234.0,0,0,Canceled,2017-08-18,2017-08-19,2017-08-17
+13562,Resort Hotel,1,5,2017,August,34,20,1,0,2,0.0,0,BB,PRT,Online TA,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,194.0,0,1,Canceled,2017-08-20,2017-08-20,2017-08-15
+13584,Resort Hotel,1,19,2017,August,34,21,1,0,2,2.0,0,BB,PRT,Online TA,TA/TO,0,0,0,C,C,1,No Deposit,240.0,,0,Transient,260.0,0,1,Canceled,2017-08-10,2017-08-21,2017-08-02
+13598,Resort Hotel,1,12,2017,August,34,21,1,4,2,0.0,0,HB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,242.0,0,0,Canceled,2017-08-10,2017-08-21,2017-08-09
+13610,Resort Hotel,1,15,2017,August,34,22,0,1,2,2.0,0,BB,ESP,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,260.0,0,0,Canceled,2017-08-07,2017-08-22,2017-08-07
+13611,Resort Hotel,1,3,2017,August,34,22,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,E,0,No Deposit,306.0,,0,Transient,125.46,0,0,Canceled,2017-08-22,2017-08-22,2017-08-19
+13644,Resort Hotel,1,20,2017,August,34,24,1,3,2,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,255.0,0,1,Canceled,2017-08-06,2017-08-24,2017-08-04
+13673,Resort Hotel,1,0,2017,August,34,26,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,G,G,0,No Deposit,,,0,Transient,235.0,0,0,Canceled,2017-08-26,2017-08-26,2017-08-26
+13675,Resort Hotel,1,17,2017,August,34,26,1,1,2,0.0,0,BB,USA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,240.0,0,2,Canceled,2017-08-23,2017-08-26,2017-08-09
+13685,Resort Hotel,1,25,2017,August,34,26,2,3,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,242.0,,0,Transient,242.0,0,2,No-Show,2017-08-26,2017-08-26,2017-08-01
+13687,Resort Hotel,1,17,2017,August,34,26,2,4,2,0.0,0,HB,PRT,Direct,Direct,0,0,0,C,C,1,No Deposit,250.0,,0,Transient,262.38,0,0,Canceled,2017-08-15,2017-08-26,2017-08-09
+13696,Resort Hotel,1,17,2017,August,34,26,2,5,2,2.0,0,BB,IRL,Online TA,TA/TO,0,0,0,G,G,1,No Deposit,240.0,,0,Transient,294.29,0,1,Canceled,2017-08-10,2017-08-26,2017-08-09
+13697,Resort Hotel,1,3,2017,August,34,26,2,5,1,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,96.0,,0,Transient,183.13,0,0,Canceled,2017-08-23,2017-08-26,2017-08-23
+13698,Resort Hotel,1,17,2017,August,34,26,2,5,2,0.0,0,BB,IRL,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,240.0,,0,Transient,194.29,0,1,Canceled,2017-08-10,2017-08-26,2017-08-09
+13702,Resort Hotel,1,19,2017,August,34,26,4,6,2,1.0,0,FB,PRT,Online TA,TA/TO,0,0,0,D,D,1,No Deposit,5.0,,0,Transient,245.3,0,0,Canceled,2017-08-14,2017-08-26,2017-08-07
+13714,Resort Hotel,1,22,2017,August,35,27,2,2,2,2.0,0,BB,GBR,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,295.0,0,0,Canceled,2017-08-05,2017-08-27,2017-08-05
+13719,Resort Hotel,1,20,2017,August,35,27,2,5,2,0.0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,E,E,0,No Deposit,11.0,,0,Transient,182.0,0,1,Canceled,2017-08-07,2017-08-27,2017-08-07
+13721,Resort Hotel,1,20,2017,August,35,27,2,5,2,0.0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,E,E,0,No Deposit,11.0,,0,Transient,182.0,0,1,Canceled,2017-08-07,2017-08-27,2017-08-07
+13739,Resort Hotel,1,14,2017,August,35,28,1,3,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,218.25,0,1,Canceled,2017-08-14,2017-08-28,2017-08-14
+13740,Resort Hotel,1,26,2017,August,35,28,1,3,2,2.0,0,BB,ESP,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,286.25,0,0,Canceled,2017-08-06,2017-08-28,2017-08-02
+13745,Resort Hotel,1,27,2017,August,35,28,1,4,2,2.0,0,HB,ESP,Direct,Direct,0,0,0,G,G,0,No Deposit,250.0,,0,Transient,341.0,0,0,Canceled,2017-08-02,2017-08-28,2017-08-01
+13750,Resort Hotel,1,13,2017,August,35,28,1,5,2,2.0,0,BB,ESP,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,232.5,0,1,Canceled,2017-08-15,2017-08-28,2017-08-15
+13761,Resort Hotel,1,18,2017,August,35,28,3,8,2,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,E,E,0,No Deposit,40.0,,0,Group,140.0,0,0,Canceled,2017-08-14,2017-08-28,2017-08-10
+13769,Resort Hotel,1,8,2017,August,35,29,0,4,3,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,250.0,,0,Transient,213.5,0,0,Canceled,2017-08-22,2017-08-29,2017-08-21
+13772,Resort Hotel,1,19,2017,August,35,29,2,5,2,0.0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Group,163.0,0,0,Canceled,2017-08-11,2017-08-29,2017-08-10
+13789,Resort Hotel,1,24,2017,August,35,31,0,1,1,0.0,0,HB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient-Party,177.5,0,1,No-Show,2017-08-31,2017-08-31,2017-08-07
+13792,Resort Hotel,1,24,2017,August,35,31,0,1,2,0.0,0,HB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient-Party,202.0,0,4,No-Show,2017-08-31,2017-08-31,2017-08-07
+13793,Resort Hotel,1,17,2017,August,35,31,0,3,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,207.0,0,2,Canceled,2017-08-14,2017-08-31,2017-08-14
+13794,Resort Hotel,1,17,2017,August,35,31,0,3,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,207.0,0,2,Canceled,2017-08-14,2017-08-31,2017-08-14
+13797,Resort Hotel,1,13,2017,August,35,31,1,3,2,2.0,0,BB,ITA,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,222.5,0,1,Canceled,2017-08-19,2017-08-31,2017-08-18
+13798,Resort Hotel,1,6,2017,August,35,31,1,3,2,1.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,207.5,0,0,Canceled,2017-08-25,2017-08-31,2017-08-25
+13801,Resort Hotel,1,29,2017,August,35,31,2,5,2,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,175.0,0,0,Canceled,2017-08-10,2017-08-31,2017-08-02
+13971,Resort Hotel,0,0,2017,August,35,29,0,3,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,E,E,3,No Deposit,,,0,Transient,184.67,0,0,Check-Out,2017-09-01,2017-08-29,2017-08-29
+14616,Resort Hotel,0,0,2017,August,31,2,0,1,2,1.0,0,BB,PRT,Direct,Direct,0,0,0,A,H,1,No Deposit,,,0,Transient,180.0,0,0,Check-Out,2017-08-03,2017-08-02,2017-08-02
+14931,Resort Hotel,0,22,2017,August,34,25,2,2,2,0.0,0,BB,PRT,Direct,Direct,1,0,5,A,A,1,No Deposit,,,0,Transient,200.0,1,3,Check-Out,2017-08-29,2017-08-25,2017-08-03
+15267,Resort Hotel,0,2,2017,August,31,3,0,2,2,0.0,0,BB,PRT,Corporate,Corporate,1,1,7,D,D,0,No Deposit,,281.0,0,Transient,0.0,1,2,Check-Out,2017-08-05,2017-08-03,2017-08-01
+26439,Resort Hotel,0,0,2017,August,33,15,0,1,2,1.0,0,BB,PRT,Direct,TA/TO,1,0,1,A,A,0,No Deposit,,,0,Group,176.0,1,1,Check-Out,2017-08-16,2017-08-15,2017-08-15
+26702,Resort Hotel,1,4,2017,August,31,5,2,1,1,0.0,0,BB,PRT,Direct,Direct,1,1,1,E,E,0,No Deposit,,,0,Transient,239.08,0,0,Canceled,2017-08-02,2017-08-05,2017-08-01
+27753,Resort Hotel,0,4,2017,August,35,29,0,4,2,0.0,0,BB,PRT,Online TA,Direct,1,0,2,A,A,0,No Deposit,240.0,,0,Transient,196.5,1,2,Check-Out,2017-09-02,2017-08-29,2017-08-25
+29210,Resort Hotel,0,5,2017,August,33,19,0,1,2,0.0,0,HB,PRT,Online TA,TA/TO,1,0,1,A,A,0,No Deposit,240.0,,0,Transient,231.0,0,2,Check-Out,2017-08-20,2017-08-19,2017-08-14
+29211,Resort Hotel,0,0,2017,August,34,20,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,1,0,1,A,A,0,No Deposit,240.0,,0,Transient,174.0,0,2,Check-Out,2017-08-21,2017-08-20,2017-08-20
+33468,Resort Hotel,0,1,2017,August,35,31,0,1,2,0.0,0,BB,PRT,Complementary,Direct,1,0,1,A,A,0,No Deposit,531.0,,0,Transient,0.0,0,1,Check-Out,2017-09-01,2017-08-31,2017-08-30
+34707,Resort Hotel,1,0,2017,August,34,24,0,1,1,0.0,0,BB,AGO,Direct,Direct,1,0,2,G,G,0,No Deposit,,,0,Transient,190.0,0,0,Canceled,2017-08-24,2017-08-24,2017-08-24
+37806,Resort Hotel,0,2,2017,August,35,28,1,0,1,0.0,0,BB,PRT,Complementary,Direct,1,0,1,A,A,0,No Deposit,,,0,Transient,0.0,0,0,Check-Out,2017-08-29,2017-08-28,2017-08-26
+38911,Resort Hotel,0,1,2017,August,31,2,0,1,1,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,146.0,,0,Transient,165.75,0,0,Check-Out,2017-08-03,2017-08-02,2017-08-01
+38967,Resort Hotel,0,0,2017,August,31,4,0,0,2,0.0,0,BB,USA,Direct,Direct,1,0,0,A,A,0,No Deposit,,,0,Transient,0.0,0,0,Check-Out,2017-08-04,2017-08-04,2017-08-04
+38986,Resort Hotel,0,0,2017,August,31,3,0,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,F,0,No Deposit,250.0,,0,Transient,213.75,0,0,Check-Out,2017-08-05,2017-08-03,2017-08-03
+38988,Resort Hotel,0,0,2017,August,31,3,0,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,D,0,No Deposit,250.0,,0,Transient,213.75,0,0,Check-Out,2017-08-05,2017-08-03,2017-08-03
+39011,Resort Hotel,0,1,2017,August,32,7,1,0,2,2.0,0,BB,MAR,Direct,TA/TO,1,0,0,C,C,0,No Deposit,,,0,Transient,245.0,0,2,Check-Out,2017-08-08,2017-08-07,2017-08-06
+39021,Resort Hotel,0,3,2017,August,31,4,0,2,2,0.0,0,BB,PHL,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,164.0,0,1,Check-Out,2017-08-06,2017-08-04,2017-08-01
+39035,Resort Hotel,0,0,2017,August,31,5,0,1,2,0.0,0,BB,FRA,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,245.0,0,0,Check-Out,2017-08-06,2017-08-05,2017-08-05
+39036,Resort Hotel,0,0,2017,August,31,5,0,1,2,0.0,0,BB,FRA,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,259.0,1,0,Check-Out,2017-08-06,2017-08-05,2017-08-05
+39046,Resort Hotel,0,1,2017,August,31,4,0,2,2,0.0,0,BB,PHL,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,241.0,,0,Transient,171.0,0,1,Check-Out,2017-08-06,2017-08-04,2017-08-03
+39047,Resort Hotel,0,3,2017,August,31,4,0,2,3,0.0,0,BB,PHL,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,196.0,0,1,Check-Out,2017-08-06,2017-08-04,2017-08-01
+39048,Resort Hotel,0,3,2017,August,31,4,0,2,2,0.0,0,BB,USA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,164.0,0,1,Check-Out,2017-08-06,2017-08-04,2017-08-01
+39050,Resort Hotel,0,3,2017,August,31,4,0,2,2,0.0,0,BB,PHL,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,164.0,0,1,Check-Out,2017-08-06,2017-08-04,2017-08-01
+39051,Resort Hotel,0,3,2017,August,31,4,0,2,3,0.0,0,BB,PHL,Online TA,TA/TO,0,0,0,A,B,0,No Deposit,241.0,,0,Transient,196.0,0,1,Check-Out,2017-08-06,2017-08-04,2017-08-01
+39052,Resort Hotel,0,3,2017,August,31,4,0,2,2,0.0,0,BB,PHL,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,164.0,0,1,Check-Out,2017-08-06,2017-08-04,2017-08-01
+39054,Resort Hotel,0,0,2017,August,31,4,0,2,1,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,1,No Deposit,,,0,Transient,225.0,0,0,Check-Out,2017-08-06,2017-08-04,2017-08-04
+39055,Resort Hotel,0,0,2017,August,31,5,0,1,3,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,C,C,1,No Deposit,240.0,,0,Transient,250.0,0,0,Check-Out,2017-08-06,2017-08-05,2017-08-05
+39056,Resort Hotel,0,0,2017,August,32,6,1,0,2,0.0,0,BB,GBR,Direct,TA/TO,1,0,0,A,A,0,No Deposit,,,0,Transient,185.0,0,0,Check-Out,2017-08-07,2017-08-06,2017-08-06
+39057,Resort Hotel,0,0,2017,August,31,5,1,1,2,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,1,No Deposit,240.0,,0,Transient,244.0,1,2,Check-Out,2017-08-07,2017-08-05,2017-08-05
+39067,Resort Hotel,0,2,2017,August,31,5,1,1,1,0.0,0,HB,GBR,Direct,Direct,0,0,0,A,A,1,No Deposit,250.0,,0,Transient,216.0,0,1,Check-Out,2017-08-07,2017-08-05,2017-08-03
+39069,Resort Hotel,0,0,2017,August,32,6,1,0,1,0.0,0,BB,GBR,Direct,Direct,0,0,0,D,D,0,No Deposit,250.0,,0,Transient,205.0,0,0,Check-Out,2017-08-07,2017-08-06,2017-08-06
+39077,Resort Hotel,0,3,2017,August,32,6,1,0,2,0.0,0,BB,IRL,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,241.0,,0,Transient,151.99,0,1,Check-Out,2017-08-07,2017-08-06,2017-08-03
+39082,Resort Hotel,0,0,2017,August,31,5,1,1,2,1.0,0,BB,IRL,Offline TA/TO,TA/TO,0,0,0,G,G,1,No Deposit,171.0,,0,Group,250.0,0,0,Check-Out,2017-08-07,2017-08-05,2017-08-05
+39087,Resort Hotel,0,4,2017,August,32,7,1,0,2,0.0,0,BB,AUS,Direct,Direct,0,0,0,D,D,0,No Deposit,250.0,,0,Group,225.0,0,1,Check-Out,2017-08-08,2017-08-07,2017-08-03
+39088,Resort Hotel,0,1,2017,August,31,5,1,1,2,2.0,0,BB,PRT,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,299.0,0,0,Check-Out,2017-08-07,2017-08-05,2017-08-04
+39094,Resort Hotel,0,1,2017,August,32,6,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,144.4,0,1,Check-Out,2017-08-07,2017-08-06,2017-08-05
+39095,Resort Hotel,0,5,2017,August,32,6,1,0,2,2.0,0,HB,PRT,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,372.0,1,1,Check-Out,2017-08-07,2017-08-06,2017-08-01
+39096,Resort Hotel,0,1,2017,August,32,6,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,D,0,No Deposit,241.0,,0,Transient,144.4,0,1,Check-Out,2017-08-07,2017-08-06,2017-08-05
+39097,Resort Hotel,0,2,2017,August,32,6,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,230.0,0,3,Check-Out,2017-08-07,2017-08-06,2017-08-04
+39104,Resort Hotel,0,3,2017,August,31,5,2,1,2,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,241.0,,0,Transient,180.5,0,1,Check-Out,2017-08-08,2017-08-05,2017-08-02
+39123,Resort Hotel,0,1,2017,August,32,7,1,0,2,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,306.0,,0,Transient,154.98,0,0,Check-Out,2017-08-08,2017-08-07,2017-08-06
+39145,Resort Hotel,0,1,2017,August,32,8,0,1,2,0.0,0,BB,LUX,Direct,Direct,0,0,0,H,H,0,No Deposit,250.0,,0,Transient,269.0,0,1,Check-Out,2017-08-09,2017-08-08,2017-08-07
+39150,Resort Hotel,0,1,2017,August,32,8,0,1,2,2.0,0,BB,FRA,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,250.0,0,1,Check-Out,2017-08-09,2017-08-08,2017-08-07
+39151,Resort Hotel,0,2,2017,August,32,8,0,1,3,1.0,0,BB,FRA,Online TA,TA/TO,0,0,0,H,H,0,No Deposit,240.0,,0,Transient,300.0,0,1,Check-Out,2017-08-09,2017-08-08,2017-08-06
+39163,Resort Hotel,0,3,2017,August,32,7,1,2,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,230.0,0,2,Check-Out,2017-08-10,2017-08-07,2017-08-04
+39172,Resort Hotel,0,5,2017,August,32,10,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,244.0,0,2,Check-Out,2017-08-11,2017-08-10,2017-08-05
+39176,Resort Hotel,0,0,2017,August,32,9,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,244.0,1,0,Check-Out,2017-08-10,2017-08-09,2017-08-09
+39178,Resort Hotel,0,2,2017,August,32,9,0,1,2,2.0,0,BB,USA,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,230.0,1,1,Check-Out,2017-08-10,2017-08-09,2017-08-07
+39188,Resort Hotel,0,3,2017,August,32,9,0,1,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,282.0,0,2,Check-Out,2017-08-10,2017-08-09,2017-08-06
+39189,Resort Hotel,0,1,2017,August,32,10,0,1,2,0.0,0,BB,ESP,Direct,TA/TO,0,0,0,D,D,0,No Deposit,,,0,Transient,205.0,0,2,Check-Out,2017-08-11,2017-08-10,2017-08-09
+39201,Resort Hotel,0,0,2017,August,32,10,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,180.0,0,1,Check-Out,2017-08-11,2017-08-10,2017-08-10
+39205,Resort Hotel,0,0,2017,August,32,10,0,1,2,0.0,0,BB,RUS,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,194.0,1,0,Check-Out,2017-08-11,2017-08-10,2017-08-10
+39207,Resort Hotel,0,2,2017,August,32,10,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,205.0,0,1,Check-Out,2017-08-11,2017-08-10,2017-08-08
+39208,Resort Hotel,0,2,2017,August,32,10,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,E,E,0,No Deposit,,,0,Transient,241.0,0,1,Check-Out,2017-08-11,2017-08-10,2017-08-08
+39212,Resort Hotel,0,3,2017,August,32,6,2,3,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,224.0,0,2,Check-Out,2017-08-11,2017-08-06,2017-08-03
+39240,Resort Hotel,0,3,2017,August,32,10,0,2,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,240.0,0,3,Check-Out,2017-08-12,2017-08-10,2017-08-07
+39246,Resort Hotel,0,0,2017,August,32,11,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,1,0,0,A,A,0,No Deposit,240.0,,0,Transient,190.0,0,1,Check-Out,2017-08-12,2017-08-11,2017-08-11
+39266,Resort Hotel,0,0,2017,August,32,12,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,214.0,1,0,Check-Out,2017-08-13,2017-08-12,2017-08-12
+39278,Resort Hotel,0,5,2017,August,32,12,0,1,2,2.0,0,BB,ESP,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,260.0,0,3,Check-Out,2017-08-13,2017-08-12,2017-08-07
+39281,Resort Hotel,0,3,2017,August,32,12,0,1,2,2.0,0,BB,USA,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,324.0,1,1,Check-Out,2017-08-13,2017-08-12,2017-08-09
+39287,Resort Hotel,0,1,2017,August,32,11,0,2,3,0.0,0,BB,PRT,Direct,Direct,0,0,0,E,E,0,No Deposit,,,0,Transient,295.0,1,0,Check-Out,2017-08-13,2017-08-11,2017-08-10
+39296,Resort Hotel,0,3,2017,August,32,12,1,1,2,0.0,0,HB,GBR,Direct,Direct,0,0,0,D,D,1,No Deposit,250.0,,0,Transient,283.0,1,1,Check-Out,2017-08-14,2017-08-12,2017-08-09
+39306,Resort Hotel,0,0,2017,August,33,13,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,185.0,0,0,Check-Out,2017-08-14,2017-08-13,2017-08-13
+39308,Resort Hotel,0,11,2017,August,32,12,1,1,2,2.0,0,BB,ESP,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,284.0,1,2,Check-Out,2017-08-14,2017-08-12,2017-08-01
+39310,Resort Hotel,0,0,2017,August,33,13,1,0,1,0.0,0,BB,LUX,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,240.0,,0,Transient,171.0,0,0,Check-Out,2017-08-14,2017-08-13,2017-08-13
+39316,Resort Hotel,0,1,2017,August,33,13,1,0,2,0.0,0,BB,AUS,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,136.8,0,1,Check-Out,2017-08-14,2017-08-13,2017-08-12
+39318,Resort Hotel,0,0,2017,August,32,9,2,4,2,0.0,0,BB,NOR,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,192.0,0,0,Check-Out,2017-08-15,2017-08-09,2017-08-09
+39333,Resort Hotel,0,5,2017,August,33,13,2,0,2,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,210.0,0,1,Check-Out,2017-08-15,2017-08-13,2017-08-08
+39334,Resort Hotel,0,0,2017,August,33,15,0,1,2,0.0,0,BB,FRA,Direct,TA/TO,1,0,0,A,A,0,No Deposit,,,0,Transient,174.0,0,1,Check-Out,2017-08-16,2017-08-15,2017-08-15
+39341,Resort Hotel,0,0,2017,August,33,14,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,B,0,No Deposit,250.0,,0,Transient,225.0,0,0,Check-Out,2017-08-15,2017-08-14,2017-08-14
+39345,Resort Hotel,0,0,2017,August,33,13,2,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,210.0,0,1,Check-Out,2017-08-15,2017-08-13,2017-08-13
+39347,Resort Hotel,0,0,2017,August,33,14,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,180.0,0,0,Check-Out,2017-08-15,2017-08-14,2017-08-14
+39351,Resort Hotel,0,1,2017,August,33,15,0,1,2,1.0,0,BB,PRT,Online TA,TA/TO,0,0,0,C,C,1,No Deposit,240.0,,0,Transient,175.5,1,1,Check-Out,2017-08-16,2017-08-15,2017-08-14
+39352,Resort Hotel,0,2,2017,August,33,15,0,1,2,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,190.0,0,2,Check-Out,2017-08-16,2017-08-15,2017-08-13
+39353,Resort Hotel,0,1,2017,August,33,15,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,103.2,0,2,Check-Out,2017-08-16,2017-08-15,2017-08-14
+39355,Resort Hotel,0,1,2017,August,33,15,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,103.2,0,2,Check-Out,2017-08-16,2017-08-15,2017-08-14
+39358,Resort Hotel,0,0,2017,August,33,15,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,161.1,0,1,Check-Out,2017-08-16,2017-08-15,2017-08-15
+39359,Resort Hotel,0,0,2017,August,33,15,0,1,2,0.0,0,BB,ESP,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,194.0,0,0,Check-Out,2017-08-16,2017-08-15,2017-08-15
+39360,Resort Hotel,0,0,2017,August,33,15,0,1,2,0.0,0,BB,ESP,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,194.0,0,0,Check-Out,2017-08-16,2017-08-15,2017-08-15
+39361,Resort Hotel,0,0,2017,August,33,15,0,1,2,0.0,0,BB,ESP,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,194.0,0,0,Check-Out,2017-08-16,2017-08-15,2017-08-15
+39362,Resort Hotel,0,6,2017,August,33,14,1,1,2,2.0,0,BB,USA,Direct,Direct,0,0,0,H,H,0,No Deposit,,,0,Transient,300.0,0,1,Check-Out,2017-08-16,2017-08-14,2017-08-08
+39364,Resort Hotel,0,0,2017,August,33,15,0,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,161.1,1,1,Check-Out,2017-08-16,2017-08-15,2017-08-15
+39369,Resort Hotel,0,1,2017,August,33,15,0,1,2,0.0,0,BB,MAR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient-Party,143.0,0,2,Check-Out,2017-08-16,2017-08-15,2017-08-14
+39372,Resort Hotel,0,0,2017,August,33,15,0,1,2,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,306.0,,0,Transient,131.2,0,0,Check-Out,2017-08-16,2017-08-15,2017-08-15
+39373,Resort Hotel,0,1,2017,August,33,15,0,1,2,0.0,0,BB,MAR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient-Party,129.0,0,2,Check-Out,2017-08-16,2017-08-15,2017-08-14
+39407,Resort Hotel,0,1,2017,August,33,15,0,2,2,0.0,0,BB,DNK,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,242.0,,0,Transient,163.05,0,1,Check-Out,2017-08-17,2017-08-15,2017-08-14
+39409,Resort Hotel,0,5,2017,August,33,16,0,1,2,0.0,0,BB,USA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,210.0,0,2,Check-Out,2017-08-17,2017-08-16,2017-08-11
+39410,Resort Hotel,0,1,2017,August,33,15,0,2,2,1.0,0,BB,NOR,Online TA,TA/TO,0,0,0,A,B,0,No Deposit,241.0,,0,Transient,153.72,1,1,Check-Out,2017-08-17,2017-08-15,2017-08-14
+39419,Resort Hotel,0,0,2017,August,33,16,0,1,3,1.0,0,BB,FRA,Online TA,TA/TO,0,0,0,H,H,0,No Deposit,240.0,,0,Transient,199.0,0,0,Check-Out,2017-08-17,2017-08-16,2017-08-16
+39424,Resort Hotel,0,10,2017,August,32,11,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Contract,137.0,0,3,Check-Out,2017-08-18,2017-08-11,2017-08-01
+39426,Resort Hotel,0,10,2017,August,32,11,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,40.0,0,Contract,135.0,0,3,Check-Out,2017-08-18,2017-08-11,2017-08-01
+39427,Resort Hotel,0,6,2017,August,33,17,0,1,1,0.0,0,BB,PRT,Complementary,Corporate,0,0,0,A,E,0,No Deposit,302.0,,0,Transient,0.0,0,0,Check-Out,2017-08-18,2017-08-17,2017-08-11
+39431,Resort Hotel,0,2,2017,August,33,17,0,1,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient-Party,231.0,0,3,Check-Out,2017-08-18,2017-08-17,2017-08-15
+39432,Resort Hotel,0,2,2017,August,33,17,0,1,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient-Party,231.0,0,3,Check-Out,2017-08-18,2017-08-17,2017-08-15
+39434,Resort Hotel,0,5,2017,August,33,17,0,1,2,2.0,0,BB,PRT,Direct,Direct,0,0,0,C,C,0,No Deposit,,,0,Transient,255.0,0,0,Check-Out,2017-08-18,2017-08-17,2017-08-12
+39436,Resort Hotel,0,6,2017,August,33,15,0,3,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,217.33,0,2,Check-Out,2017-08-18,2017-08-15,2017-08-09
+39441,Resort Hotel,0,1,2017,August,33,17,0,1,2,1.0,0,BB,NOR,Online TA,TA/TO,0,0,0,A,B,0,No Deposit,241.0,,0,Transient,170.1,0,1,Check-Out,2017-08-18,2017-08-17,2017-08-16
+39444,Resort Hotel,0,2,2017,August,33,16,0,2,1,0.0,0,HB,PRT,Direct,Direct,0,0,0,E,E,1,No Deposit,250.0,,0,Transient-Party,238.3,0,1,Check-Out,2017-08-18,2017-08-16,2017-08-14
+39449,Resort Hotel,0,15,2017,August,33,16,0,2,2,0.0,0,BB,CN,Online TA,TA/TO,0,0,0,A,D,0,No Deposit,240.0,,0,Transient,210.0,0,2,Check-Out,2017-08-18,2017-08-16,2017-08-01
+39457,Resort Hotel,0,11,2017,August,33,18,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,0,0,0,A,B,0,No Deposit,,337.0,0,Transient,135.0,0,0,Check-Out,2017-08-19,2017-08-18,2017-08-07
+39460,Resort Hotel,0,1,2017,August,33,18,0,1,2,1.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,241.0,,0,Transient,186.1,0,0,Check-Out,2017-08-19,2017-08-18,2017-08-17
+39466,Resort Hotel,0,6,2017,August,33,17,0,2,2,0.0,0,BB,USA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,230.0,0,0,Check-Out,2017-08-19,2017-08-17,2017-08-11
+39479,Resort Hotel,0,0,2017,August,33,17,0,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,194.0,0,0,Check-Out,2017-08-19,2017-08-17,2017-08-17
+39481,Resort Hotel,0,11,2017,August,32,12,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Transient,116.47,0,2,Check-Out,2017-08-19,2017-08-12,2017-08-01
+39484,Resort Hotel,0,4,2017,August,32,9,2,8,2,1.0,0,FB,PRT,Offline TA/TO,TA/TO,0,0,0,E,E,0,No Deposit,5.0,,0,Transient,306.7,1,0,Check-Out,2017-08-19,2017-08-09,2017-08-05
+39488,Resort Hotel,0,3,2017,August,33,18,0,1,3,1.0,0,BB,PRT,Online TA,TA/TO,0,0,0,H,H,0,No Deposit,240.0,,0,Transient,265.0,0,1,Check-Out,2017-08-19,2017-08-18,2017-08-15
+39490,Resort Hotel,0,0,2017,August,33,17,0,2,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,179.0,0,1,Check-Out,2017-08-19,2017-08-17,2017-08-17
+39519,Resort Hotel,0,2,2017,August,33,18,0,2,1,0.0,0,BB,ZAF,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,219.0,0,2,Check-Out,2017-08-20,2017-08-18,2017-08-16
+39520,Resort Hotel,0,13,2017,August,33,14,1,5,2,0.0,0,HB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,247.65,0,3,Check-Out,2017-08-20,2017-08-14,2017-08-01
+39526,Resort Hotel,0,2,2017,August,33,19,0,1,2,1.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,E,0,No Deposit,241.0,,0,Transient,201.14,1,1,Check-Out,2017-08-20,2017-08-19,2017-08-17
+39527,Resort Hotel,0,0,2017,August,34,20,0,0,2,0.0,0,BB,PRT,Direct,Direct,1,0,0,E,E,0,No Deposit,,,0,Transient,0.0,1,1,Check-Out,2017-08-20,2017-08-20,2017-08-20
+39530,Resort Hotel,0,3,2017,August,33,17,1,3,2,0.0,0,HB,GBR,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,271.0,0,2,Check-Out,2017-08-21,2017-08-17,2017-08-14
+39532,Resort Hotel,0,1,2017,August,33,18,1,2,2,1.0,0,HB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,206.4,0,1,Check-Out,2017-08-21,2017-08-18,2017-08-17
+39537,Resort Hotel,0,0,2017,August,34,20,1,0,2,0.0,0,BB,ESP,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,176.0,0,0,Check-Out,2017-08-21,2017-08-20,2017-08-20
+39542,Resort Hotel,0,12,2017,August,33,16,1,4,2,2.0,0,BB,PRT,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,264.0,0,2,Check-Out,2017-08-21,2017-08-16,2017-08-04
+39545,Resort Hotel,0,8,2017,August,33,17,1,3,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,250.0,,0,Transient-Party,210.0,0,2,Check-Out,2017-08-21,2017-08-17,2017-08-09
+39546,Resort Hotel,0,8,2017,August,33,17,1,3,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,250.0,,0,Transient-Party,224.0,1,2,Check-Out,2017-08-21,2017-08-17,2017-08-09
+39547,Resort Hotel,0,1,2017,August,33,17,1,3,2,0.0,0,BB,ITA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,184.0,0,1,Check-Out,2017-08-21,2017-08-17,2017-08-16
+39548,Resort Hotel,0,3,2017,August,34,20,1,0,1,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,127.0,,0,Transient,143.2,0,0,Check-Out,2017-08-21,2017-08-20,2017-08-17
+39551,Resort Hotel,0,7,2017,August,33,16,1,4,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,260.0,1,2,Check-Out,2017-08-21,2017-08-16,2017-08-09
+39569,Resort Hotel,0,4,2017,August,34,21,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,250.0,,0,Transient,228.0,1,1,Check-Out,2017-08-22,2017-08-21,2017-08-17
+39573,Resort Hotel,0,8,2017,August,33,17,2,3,2,0.0,0,BB,IRL,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,171.2,0,1,Check-Out,2017-08-22,2017-08-17,2017-08-09
+39574,Resort Hotel,0,7,2017,August,33,17,2,3,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,246.0,0,2,Check-Out,2017-08-22,2017-08-17,2017-08-10
+39577,Resort Hotel,0,3,2017,August,33,19,2,1,2,0.0,0,BB,BRA,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,241.0,,0,Transient,211.49,1,1,Check-Out,2017-08-22,2017-08-19,2017-08-16
+39585,Resort Hotel,0,4,2017,August,34,20,2,0,1,0.0,0,BB,PRT,Complementary,Corporate,0,0,0,A,E,0,No Deposit,302.0,,0,Transient,0.0,0,1,Check-Out,2017-08-22,2017-08-20,2017-08-16
+39586,Resort Hotel,0,1,2017,August,34,20,2,0,2,2.0,0,BB,PRT,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,269.0,0,1,Check-Out,2017-08-22,2017-08-20,2017-08-19
+39588,Resort Hotel,0,5,2017,August,34,21,1,0,2,0.0,0,HB,PRT,Direct,Direct,0,0,0,E,H,1,No Deposit,250.0,,0,Transient,268.3,1,1,Check-Out,2017-08-22,2017-08-21,2017-08-16
+39594,Resort Hotel,0,0,2017,August,34,22,0,1,3,0.0,0,BB,CHE,Direct,Direct,0,0,0,F,F,0,No Deposit,,,0,Transient,230.0,0,0,Check-Out,2017-08-23,2017-08-22,2017-08-22
+39595,Resort Hotel,0,13,2017,August,33,17,2,4,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,2,No Deposit,250.0,,0,Transient,222.33,1,1,Check-Out,2017-08-23,2017-08-17,2017-08-04
+39600,Resort Hotel,0,4,2017,August,34,21,1,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,253.0,0,2,Check-Out,2017-08-23,2017-08-21,2017-08-17
+39602,Resort Hotel,0,19,2017,August,34,21,1,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,182.0,0,1,Check-Out,2017-08-23,2017-08-21,2017-08-02
+39603,Resort Hotel,0,3,2017,August,34,21,1,1,2,2.0,0,BB,NLD,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,229.0,0,1,Check-Out,2017-08-23,2017-08-21,2017-08-18
+39605,Resort Hotel,0,9,2017,August,34,22,0,1,2,2.0,0,BB,ESP,Direct,Direct,0,0,0,G,G,0,No Deposit,250.0,,0,Transient,319.0,1,3,Check-Out,2017-08-23,2017-08-22,2017-08-13
+39609,Resort Hotel,0,0,2017,August,34,22,0,1,2,0.0,0,BB,ESP,Direct,Direct,0,0,0,F,F,0,No Deposit,,,0,Transient,180.0,0,0,Check-Out,2017-08-23,2017-08-22,2017-08-22
+39612,Resort Hotel,0,13,2017,August,33,18,2,3,2,0.0,1,HB,PRT,Direct,Direct,0,0,0,A,A,1,No Deposit,250.0,,0,Transient,244.55,1,3,Check-Out,2017-08-23,2017-08-18,2017-08-05
+39615,Resort Hotel,0,12,2017,August,34,21,1,1,2,0.0,0,BB,BRA,Online TA,TA/TO,0,0,0,A,E,0,No Deposit,240.0,,0,Transient,224.0,0,3,Check-Out,2017-08-23,2017-08-21,2017-08-09
+39624,Resort Hotel,0,12,2017,August,33,13,4,7,2,0.0,0,HB,PRT,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Contract,163.0,0,2,Check-Out,2017-08-24,2017-08-13,2017-08-01
+39628,Resort Hotel,0,0,2017,August,34,23,0,1,2,1.0,0,BB,PRT,Direct,Direct,0,0,0,F,F,1,No Deposit,,,0,Transient,238.0,0,0,Check-Out,2017-08-24,2017-08-23,2017-08-23
+39635,Resort Hotel,0,18,2017,August,33,19,2,3,2,0.0,0,BB,ROU,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,241.0,,0,Transient,219.2,0,1,Check-Out,2017-08-24,2017-08-19,2017-08-01
+39637,Resort Hotel,0,1,2017,August,34,23,0,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,241.0,,0,Transient,159.2,0,1,Check-Out,2017-08-24,2017-08-23,2017-08-22
+39640,Resort Hotel,0,7,2017,August,34,21,1,2,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,274.67,0,2,Check-Out,2017-08-24,2017-08-21,2017-08-14
+39641,Resort Hotel,0,3,2017,August,34,23,0,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,189.0,0,2,Check-Out,2017-08-24,2017-08-23,2017-08-20
+39642,Resort Hotel,0,19,2017,August,34,21,1,2,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,210.0,0,2,Check-Out,2017-08-24,2017-08-21,2017-08-02
+39643,Resort Hotel,0,1,2017,August,34,23,0,1,2,0.0,0,BB,CHE,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,209.0,0,2,Check-Out,2017-08-24,2017-08-23,2017-08-22
+39644,Resort Hotel,0,16,2017,August,34,22,0,2,3,1.0,0,HB,GBR,Online TA,TA/TO,0,0,0,H,H,0,No Deposit,240.0,,0,Transient,382.0,1,1,Check-Out,2017-08-24,2017-08-22,2017-08-06
+39647,Resort Hotel,0,4,2017,August,33,19,2,3,3,0.0,0,HB,ESP,Direct,Direct,0,0,0,F,F,1,No Deposit,250.0,,0,Transient,350.2,0,1,Check-Out,2017-08-24,2017-08-19,2017-08-15
+39654,Resort Hotel,0,1,2017,August,34,22,0,2,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,306.0,,0,Transient,151.29,0,0,Check-Out,2017-08-24,2017-08-22,2017-08-21
+39655,Resort Hotel,0,18,2017,August,34,21,1,3,2,0.0,0,BB,CN,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,168.0,0,1,Check-Out,2017-08-25,2017-08-21,2017-08-03
+39662,Resort Hotel,0,13,2017,August,33,14,3,8,1,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,1,No Deposit,40.0,,0,Contract,116.5,0,0,Check-Out,2017-08-25,2017-08-14,2017-08-01
+39667,Resort Hotel,0,12,2017,August,34,21,1,3,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,256.0,0,2,Check-Out,2017-08-25,2017-08-21,2017-08-09
+39668,Resort Hotel,0,20,2017,August,34,22,0,3,3,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,H,H,1,No Deposit,240.0,,0,Transient,322.0,0,1,Check-Out,2017-08-25,2017-08-22,2017-08-02
+39677,Resort Hotel,0,10,2017,August,34,22,0,3,2,2.0,0,BB,FRA,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,275.33,0,2,Check-Out,2017-08-25,2017-08-22,2017-08-12
+39682,Resort Hotel,0,21,2017,August,34,22,0,3,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,E,E,0,No Deposit,250.0,,0,Transient,261.0,1,1,Check-Out,2017-08-25,2017-08-22,2017-08-01
+39687,Resort Hotel,0,10,2017,August,34,22,0,4,2,2.0,0,BB,IRL,Direct,Direct,0,0,0,G,G,0,No Deposit,250.0,,0,Transient,306.5,0,2,Check-Out,2017-08-26,2017-08-22,2017-08-12
+39698,Resort Hotel,0,17,2017,August,34,24,0,2,2,2.0,0,BB,ESP,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,274.0,0,2,Check-Out,2017-08-26,2017-08-24,2017-08-07
+39699,Resort Hotel,0,0,2017,August,34,25,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,F,F,0,No Deposit,,,0,Transient,244.0,1,0,Check-Out,2017-08-26,2017-08-25,2017-08-25
+39702,Resort Hotel,0,0,2017,August,34,25,0,1,2,1.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient-Party,175.0,0,0,Check-Out,2017-08-26,2017-08-25,2017-08-25
+39703,Resort Hotel,0,0,2017,August,34,25,0,1,2,2.0,0,BB,PRT,Online TA,TA/TO,0,0,0,C,C,1,No Deposit,240.0,,0,Transient-Party,225.0,0,0,Check-Out,2017-08-26,2017-08-25,2017-08-25
+39708,Resort Hotel,0,7,2017,August,34,21,1,4,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,210.0,0,2,Check-Out,2017-08-26,2017-08-21,2017-08-14
+39709,Resort Hotel,0,1,2017,August,34,25,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,D,0,No Deposit,241.0,,0,Transient,154.0,0,1,Check-Out,2017-08-26,2017-08-25,2017-08-24
+39715,Resort Hotel,0,0,2017,August,34,25,0,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,306.0,,0,Transient,116.61,0,0,Check-Out,2017-08-26,2017-08-25,2017-08-25
+39718,Resort Hotel,0,1,2017,August,34,25,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,171.5,0,1,Check-Out,2017-08-26,2017-08-25,2017-08-24
+39719,Resort Hotel,0,0,2017,August,34,26,0,1,2,0.0,0,BB,PRT,Direct,Direct,1,0,0,E,E,0,No Deposit,,,0,Transient,200.0,0,1,Check-Out,2017-08-27,2017-08-26,2017-08-26
+39730,Resort Hotel,0,7,2017,August,34,25,0,2,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,222.0,0,1,Check-Out,2017-08-27,2017-08-25,2017-08-18
+39733,Resort Hotel,0,0,2017,August,34,26,0,1,2,0.0,0,BB,ITA,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,230.0,0,1,Check-Out,2017-08-27,2017-08-26,2017-08-26
+39734,Resort Hotel,0,2,2017,August,34,25,0,2,1,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,220.0,0,1,Check-Out,2017-08-27,2017-08-25,2017-08-23
+39737,Resort Hotel,0,12,2017,August,33,13,4,10,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,40.0,0,Contract,135.0,0,1,Check-Out,2017-08-27,2017-08-13,2017-08-01
+39742,Resort Hotel,0,2,2017,August,34,25,0,2,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,196.25,0,2,Check-Out,2017-08-27,2017-08-25,2017-08-23
+39747,Resort Hotel,0,4,2017,August,34,25,0,2,2,0.0,1,BB,ESP,Online TA,TA/TO,0,0,0,D,D,1,No Deposit,240.0,,0,Transient,220.0,0,3,Check-Out,2017-08-27,2017-08-25,2017-08-21
+39749,Resort Hotel,0,23,2017,August,34,25,0,2,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,240.0,0,2,Check-Out,2017-08-27,2017-08-25,2017-08-02
+39750,Resort Hotel,0,5,2017,August,34,25,0,2,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,274.0,1,2,Check-Out,2017-08-27,2017-08-25,2017-08-20
+39751,Resort Hotel,0,0,2017,August,34,25,0,2,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,241.0,,0,Transient,188.0,0,2,Check-Out,2017-08-27,2017-08-25,2017-08-25
+39752,Resort Hotel,0,4,2017,August,34,25,0,2,2,0.0,0,BB,ROU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,242.0,,0,Transient,214.0,0,2,Check-Out,2017-08-27,2017-08-25,2017-08-21
+39756,Resort Hotel,0,0,2017,August,34,26,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,G,G,1,No Deposit,240.0,,0,Transient,235.0,0,0,Check-Out,2017-08-27,2017-08-26,2017-08-26
+39757,Resort Hotel,0,12,2017,August,34,22,0,5,2,1.0,0,HB,LTU,Online TA,TA/TO,0,0,0,A,B,1,No Deposit,241.0,,0,Transient,194.64,0,1,Check-Out,2017-08-27,2017-08-22,2017-08-10
+39761,Resort Hotel,0,0,2017,August,35,27,1,0,2,2.0,0,BB,CHE,Direct,Direct,0,0,0,H,H,1,No Deposit,,,0,Transient,220.5,1,0,Check-Out,2017-08-28,2017-08-27,2017-08-27
+39762,Resort Hotel,0,11,2017,August,34,24,1,3,2,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,A,E,0,No Deposit,241.0,,0,Transient,157.42,0,1,Check-Out,2017-08-28,2017-08-24,2017-08-13
+39771,Resort Hotel,0,20,2017,August,34,21,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Contract,137.0,0,0,Check-Out,2017-08-28,2017-08-21,2017-08-01
+39778,Resort Hotel,0,0,2017,August,35,27,1,0,2,0.0,0,BB,CHE,Direct,Direct,0,0,0,C,C,0,No Deposit,,,0,Transient,185.0,1,0,Check-Out,2017-08-28,2017-08-27,2017-08-27
+39779,Resort Hotel,0,0,2017,August,35,28,1,0,2,0.0,0,BB,CHE,Direct,Direct,1,0,0,E,E,0,No Deposit,,,0,Transient,194.0,1,0,Check-Out,2017-08-29,2017-08-28,2017-08-28
+39782,Resort Hotel,0,2,2017,August,34,25,1,2,2,0.0,0,HB,BRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,314.0,,0,Transient-Party,227.81,0,0,Check-Out,2017-08-28,2017-08-25,2017-08-23
+39783,Resort Hotel,0,2,2017,August,34,25,1,2,2,0.0,0,HB,PAK,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,314.0,,0,Transient-Party,243.81,1,0,Check-Out,2017-08-28,2017-08-25,2017-08-23
+39784,Resort Hotel,0,13,2017,August,34,26,1,1,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,292.0,0,3,Check-Out,2017-08-28,2017-08-26,2017-08-13
+39786,Resort Hotel,0,22,2017,August,34,25,1,2,2,2.0,0,HB,ESP,Online TA,TA/TO,0,0,0,C,C,1,No Deposit,240.0,,0,Transient-Party,314.67,0,2,Check-Out,2017-08-28,2017-08-25,2017-08-03
+39787,Resort Hotel,0,22,2017,August,34,25,1,2,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,E,E,1,No Deposit,240.0,,0,Transient-Party,302.67,0,2,Check-Out,2017-08-28,2017-08-25,2017-08-03
+39791,Resort Hotel,0,0,2017,August,35,27,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,C,C,0,No Deposit,,,0,Transient,185.0,0,0,Check-Out,2017-08-28,2017-08-27,2017-08-27
+39797,Resort Hotel,0,0,2017,August,35,27,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,185.0,0,0,Check-Out,2017-08-28,2017-08-27,2017-08-27
+39798,Resort Hotel,0,6,2017,August,34,24,1,3,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,D,E,0,No Deposit,240.0,,0,Transient,267.0,0,2,Check-Out,2017-08-28,2017-08-24,2017-08-18
+39800,Resort Hotel,0,17,2017,August,35,28,1,3,3,0.0,0,FB,PRT,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,5.0,,0,Transient,248.29,0,0,Check-Out,2017-09-01,2017-08-28,2017-08-11
+39802,Resort Hotel,0,5,2017,August,34,24,1,3,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,269.0,0,3,Check-Out,2017-08-28,2017-08-24,2017-08-19
+39804,Resort Hotel,0,3,2017,August,35,27,1,0,1,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,A,0,No Deposit,330.0,,0,Transient-Party,75.0,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-24
+39805,Resort Hotel,0,3,2017,August,35,27,1,0,1,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,D,0,No Deposit,330.0,,0,Transient-Party,75.0,0,2,Check-Out,2017-08-28,2017-08-27,2017-08-24
+39806,Resort Hotel,0,3,2017,August,35,27,1,0,2,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,D,0,No Deposit,330.0,,0,Transient-Party,80.0,0,2,Check-Out,2017-08-28,2017-08-27,2017-08-24
+39810,Resort Hotel,0,0,2017,August,35,27,2,0,2,0.0,0,BB,HRV,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,244.0,1,0,Check-Out,2017-08-29,2017-08-27,2017-08-27
+39815,Resort Hotel,0,23,2017,August,34,26,2,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,168.0,0,1,Check-Out,2017-08-29,2017-08-26,2017-08-03
+39816,Resort Hotel,0,10,2017,August,34,23,2,4,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,I,0,No Deposit,240.0,,0,Transient,225.67,0,2,Check-Out,2017-08-29,2017-08-23,2017-08-13
+39817,Resort Hotel,0,1,2017,August,35,29,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,204.0,0,2,Check-Out,2017-08-30,2017-08-29,2017-08-28
+39820,Resort Hotel,0,9,2017,August,34,22,2,5,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,210.0,0,2,Check-Out,2017-08-29,2017-08-22,2017-08-13
+39824,Resort Hotel,0,21,2017,August,34,25,2,2,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,224.0,0,2,Check-Out,2017-08-29,2017-08-25,2017-08-04
+39847,Resort Hotel,0,6,2017,August,35,27,2,1,2,2.0,0,HB,PRT,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,344.67,0,2,Check-Out,2017-08-30,2017-08-27,2017-08-21
+39852,Resort Hotel,0,0,2017,August,35,30,0,0,2,0.0,0,BB,PRT,Online TA,TA/TO,1,0,0,A,A,0,No Deposit,306.0,,0,Transient,0.0,0,0,Check-Out,2017-08-30,2017-08-30,2017-08-30
+39858,Resort Hotel,0,3,2017,August,35,28,1,2,2,0.0,0,HB,GBR,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,235.8,0,2,Check-Out,2017-08-31,2017-08-28,2017-08-25
+39861,Resort Hotel,0,14,2017,August,34,24,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Contract,135.0,0,2,Check-Out,2017-08-31,2017-08-24,2017-08-10
+39862,Resort Hotel,0,14,2017,August,34,24,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Group,135.0,0,0,Check-Out,2017-08-31,2017-08-24,2017-08-10
+39864,Resort Hotel,0,0,2017,August,35,30,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,250.0,,0,Transient,175.0,0,1,Check-Out,2017-08-31,2017-08-30,2017-08-30
+39865,Resort Hotel,0,8,2017,August,35,30,0,1,1,0.0,0,BB,ESP,Offline TA/TO,TA/TO,0,0,0,A,E,0,No Deposit,104.0,,0,Transient,166.5,0,0,Check-Out,2017-08-31,2017-08-30,2017-08-22
+39875,Resort Hotel,0,29,2017,August,35,31,0,1,2,1.0,0,Undefined,PRT,Offline TA/TO,TA/TO,0,0,0,A,A,1,No Deposit,96.0,,0,Group,204.0,1,2,Check-Out,2017-09-01,2017-08-31,2017-08-02
+39878,Resort Hotel,0,0,2017,August,35,30,0,1,2,2.0,0,BB,PRT,Direct,Direct,0,0,0,C,C,0,No Deposit,,,0,Transient,210.0,0,0,Check-Out,2017-08-31,2017-08-30,2017-08-30
+39881,Resort Hotel,0,7,2017,August,34,25,2,4,2,0.0,0,HB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,190.27,0,1,Check-Out,2017-08-31,2017-08-25,2017-08-18
+39883,Resort Hotel,0,4,2017,August,35,27,2,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,250.0,,0,Transient,210.0,0,2,Check-Out,2017-08-31,2017-08-27,2017-08-23
+39887,Resort Hotel,0,26,2017,August,35,27,2,2,1,0.0,0,BB,RUS,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,197.0,0,3,Check-Out,2017-08-31,2017-08-27,2017-08-01
+39888,Resort Hotel,0,12,2017,August,34,26,2,3,3,0.0,0,HB,PRT,Direct,Direct,0,0,0,A,A,4,No Deposit,250.0,,0,Transient,295.0,0,1,Check-Out,2017-08-31,2017-08-26,2017-08-14
+39894,Resort Hotel,0,5,2017,August,35,30,0,1,2,0.0,0,BB,NLD,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,171.0,0,1,Check-Out,2017-08-31,2017-08-30,2017-08-25
+39895,Resort Hotel,0,10,2017,August,35,31,0,2,2,0.0,0,BB,NLD,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,175.0,0,2,Check-Out,2017-09-02,2017-08-31,2017-08-21
+39900,Resort Hotel,0,0,2017,August,35,30,0,2,1,0.0,0,BB,CN,Online TA,TA/TO,0,0,0,D,D,1,No Deposit,306.0,,0,Transient,104.55,0,0,Check-Out,2017-09-01,2017-08-30,2017-08-30
+39902,Resort Hotel,0,23,2017,August,35,31,0,1,2,0.0,0,BB,RUS,Online TA,TA/TO,0,0,0,E,F,0,No Deposit,240.0,,0,Transient,217.0,0,2,Check-Out,2017-09-01,2017-08-31,2017-08-08
+39905,Resort Hotel,0,3,2017,August,35,30,0,2,1,0.0,0,BB,PRT,Direct,Direct,0,0,0,E,F,0,No Deposit,,,0,Transient,217.0,0,1,Check-Out,2017-09-01,2017-08-30,2017-08-27
+39906,Resort Hotel,0,8,2017,August,35,30,0,2,2,0.0,0,Undefined,PRT,Direct,Direct,0,0,0,D,D,1,No Deposit,250.0,,0,Transient,266.06,1,0,Check-Out,2017-09-01,2017-08-30,2017-08-22
+39907,Resort Hotel,0,19,2017,August,35,30,0,2,1,0.0,0,BB,BRA,Online TA,TA/TO,0,0,0,A,C,0,No Deposit,241.0,,0,Transient,153.0,0,1,Check-Out,2017-09-01,2017-08-30,2017-08-11
+39908,Resort Hotel,0,19,2017,August,35,30,0,2,2,0.0,0,BB,BRA,Online TA,TA/TO,0,0,0,A,C,0,No Deposit,241.0,,0,Transient,139.0,0,1,Check-Out,2017-09-01,2017-08-30,2017-08-11
+39909,Resort Hotel,0,21,2017,August,35,30,0,2,2,1.0,0,BB,USA,Online TA,TA/TO,0,0,0,A,G,1,No Deposit,241.0,,0,Transient,186.0,0,2,Check-Out,2017-09-01,2017-08-30,2017-08-09
+39910,Resort Hotel,0,4,2017,August,34,25,2,5,2,1.0,0,HB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,241.0,,0,Transient,219.03,0,1,Check-Out,2017-09-01,2017-08-25,2017-08-21
+39915,Resort Hotel,0,1,2017,August,35,28,1,3,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,E,E,1,No Deposit,240.0,,0,Transient,212.5,0,3,Check-Out,2017-09-01,2017-08-28,2017-08-27
+39916,Resort Hotel,0,3,2017,August,34,26,2,4,3,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,1,No Deposit,250.0,,0,Transient,252.57,1,2,Check-Out,2017-09-01,2017-08-26,2017-08-23
+39922,Resort Hotel,0,21,2017,August,34,25,2,5,2,1.0,0,BB,MAR,Online TA,TA/TO,0,0,0,E,E,3,No Deposit,240.0,,0,Transient,277.71,1,3,Check-Out,2017-09-01,2017-08-25,2017-08-04
+39925,Resort Hotel,0,5,2017,August,34,26,2,5,2,2.0,0,HB,ESP,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,240.0,,0,Transient,336.57,1,2,Check-Out,2017-09-02,2017-08-26,2017-08-21
+39926,Resort Hotel,0,5,2017,August,35,28,1,4,2,0.0,0,BB,CN,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,240.0,,0,Transient,218.0,0,2,Check-Out,2017-09-02,2017-08-28,2017-08-23
+39931,Resort Hotel,0,0,2017,August,35,31,0,2,4,0.0,0,BB,ITA,Direct,Direct,0,0,0,H,H,0,No Deposit,250.0,,0,Transient,244.0,1,0,Check-Out,2017-09-02,2017-08-31,2017-08-31
+39935,Resort Hotel,0,30,2017,August,35,31,0,2,2,0.0,0,BB,TUR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,142.0,0,4,Check-Out,2017-09-02,2017-08-31,2017-08-01
+39937,Resort Hotel,0,30,2017,August,35,31,0,2,1,0.0,0,BB,TUR,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,240.0,,0,Transient,191.0,1,3,Check-Out,2017-09-02,2017-08-31,2017-08-01
+39938,Resort Hotel,0,0,2017,August,35,28,1,4,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,240.0,,0,Transient,192.8,0,1,Check-Out,2017-09-02,2017-08-28,2017-08-28
+39944,Resort Hotel,0,10,2017,August,34,26,2,5,2,0.0,0,BB,CHE,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,241.0,,0,Transient,176.86,1,1,Check-Out,2017-09-02,2017-08-26,2017-08-16
+39952,Resort Hotel,0,6,2017,August,35,29,0,4,2,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,F,0,No Deposit,314.0,,0,Transient,149.45,0,0,Check-Out,2017-09-02,2017-08-29,2017-08-23
+39953,Resort Hotel,0,1,2017,August,35,31,0,2,2,0.0,0,BB,ESP,Direct,Direct,0,0,0,A,A,0,No Deposit,250.0,,0,Transient,184.0,1,0,Check-Out,2017-09-02,2017-08-31,2017-08-30
+39962,Resort Hotel,0,2,2017,August,35,31,0,3,2,0.0,0,Undefined,PRT,Direct,Direct,0,0,0,A,D,2,No Deposit,250.0,,0,Transient,245.33,0,2,Check-Out,2017-09-03,2017-08-31,2017-08-29
+39970,Resort Hotel,0,2,2017,August,35,31,0,3,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,F,0,No Deposit,,,0,Transient-Party,174.0,1,0,Check-Out,2017-09-03,2017-08-31,2017-08-29
+39971,Resort Hotel,0,2,2017,August,35,31,0,3,2,2.0,0,BB,PRT,Direct,Direct,0,0,0,C,C,0,No Deposit,,,0,Transient-Party,200.0,0,2,Check-Out,2017-09-03,2017-08-31,2017-08-29
+39972,Resort Hotel,0,3,2017,August,35,31,0,3,2,0.0,0,HB,DEU,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,240.0,,0,Transient,261.0,1,2,Check-Out,2017-09-03,2017-08-31,2017-08-28
+39974,Resort Hotel,0,17,2017,August,35,31,0,3,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient-Party,207.0,0,3,Check-Out,2017-09-03,2017-08-31,2017-08-14
+39975,Resort Hotel,0,17,2017,August,35,31,0,3,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient-Party,221.0,0,3,Check-Out,2017-09-03,2017-08-31,2017-08-14
+39977,Resort Hotel,0,15,2017,August,35,30,0,4,3,0.0,0,HB,PRT,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,240.0,,0,Transient,257.75,1,3,Check-Out,2017-09-03,2017-08-30,2017-08-15
+39978,Resort Hotel,0,15,2017,August,35,30,0,4,2,0.0,0,HB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,210.75,0,3,Check-Out,2017-09-03,2017-08-30,2017-08-15
+39982,Resort Hotel,0,13,2017,August,35,28,1,5,2,1.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,242.0,,0,Transient,250.2,1,3,Check-Out,2017-09-03,2017-08-28,2017-08-15
+39983,Resort Hotel,0,18,2017,August,35,28,1,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Group,135.0,0,2,Check-Out,2017-09-03,2017-08-28,2017-08-10
+39985,Resort Hotel,0,19,2017,August,35,31,0,3,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,15.0,,0,Transient,165.6,0,0,Check-Out,2017-09-03,2017-08-31,2017-08-12
+39986,Resort Hotel,0,9,2017,August,35,28,1,5,2,2.0,0,BB,ESP,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,232.5,0,2,Check-Out,2017-09-03,2017-08-28,2017-08-19
+39990,Resort Hotel,0,7,2017,August,35,30,1,4,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,192.0,1,1,Check-Out,2017-09-04,2017-08-30,2017-08-23
+39995,Resort Hotel,0,6,2017,August,35,31,1,3,2,1.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,250.0,,0,Transient,207.5,0,1,Check-Out,2017-09-04,2017-08-31,2017-08-25
+39997,Resort Hotel,0,27,2017,August,35,28,2,5,2,0.0,0,BB,CHE,Direct,Direct,0,0,0,F,F,0,No Deposit,250.0,,0,Transient,234.29,0,1,Check-Out,2017-09-04,2017-08-28,2017-08-01
+40000,Resort Hotel,0,19,2017,August,35,29,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Transient,135.0,0,2,Check-Out,2017-09-05,2017-08-29,2017-08-10
+40005,Resort Hotel,0,6,2017,August,35,29,2,5,2,0.0,0,BB,IRL,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,130.23,0,1,Check-Out,2017-09-05,2017-08-29,2017-08-23
+40009,Resort Hotel,0,21,2017,August,35,28,3,5,1,0.0,0,HB,ROU,Offline TA/TO,TA/TO,0,0,0,A,A,3,No Deposit,11.0,,0,Transient-Party,137.0,0,2,Check-Out,2017-09-05,2017-08-28,2017-08-07
+40011,Resort Hotel,0,30,2017,August,35,31,2,3,2,0.0,0,HB,GBR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,241.0,,0,Transient,149.45,0,1,Check-Out,2017-09-05,2017-08-31,2017-08-01
+40014,Resort Hotel,0,0,2017,August,35,29,2,5,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,240.0,,0,Transient,186.43,1,2,Check-Out,2017-09-05,2017-08-29,2017-08-29
+40020,Resort Hotel,0,20,2017,August,35,30,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,40.0,,0,Group,92.0,0,0,Check-Out,2017-09-06,2017-08-30,2017-08-10
+40022,Resort Hotel,0,25,2017,August,35,30,2,5,2,2.0,0,BB,PRT,Online TA,TA/TO,0,0,0,C,C,0,No Deposit,240.0,,0,Transient,222.86,1,1,Check-Out,2017-09-06,2017-08-30,2017-08-05
+40032,Resort Hotel,0,21,2017,August,35,31,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,E,E,0,No Deposit,40.0,,0,Contract,101.7,0,2,Check-Out,2017-09-07,2017-08-31,2017-08-10
+40035,Resort Hotel,0,21,2017,August,35,31,2,5,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,E,E,0,No Deposit,40.0,,0,Contract,101.7,0,2,Check-Out,2017-09-07,2017-08-31,2017-08-10
+72675,City Hotel,1,2,2017,August,31,3,0,1,1,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,1,No Deposit,509.0,,0,Transient-Party,17.6,0,0,Canceled,2017-08-02,2017-08-03,2017-08-01
+72676,City Hotel,1,2,2017,August,31,3,0,1,2,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,0,No Deposit,509.0,,0,Transient-Party,166.0,0,0,Canceled,2017-08-02,2017-08-03,2017-08-01
+72718,City Hotel,1,2,2017,August,31,4,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,E,2,No Deposit,,,0,Transient,75.0,0,2,Canceled,2017-08-04,2017-08-04,2017-08-02
+72719,City Hotel,1,2,2017,August,31,4,0,1,3,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,200.0,0,2,Canceled,2017-08-04,2017-08-04,2017-08-02
+72775,City Hotel,1,4,2017,August,32,6,1,0,1,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,D,0,No Deposit,111.0,,0,Transient,144.5,0,0,Canceled,2017-08-06,2017-08-06,2017-08-02
+72777,City Hotel,1,4,2017,August,32,6,1,0,1,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,D,0,No Deposit,111.0,,0,Transient,144.5,0,0,Canceled,2017-08-06,2017-08-06,2017-08-02
+72801,City Hotel,1,0,2017,August,32,7,1,0,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,140.0,0,0,Canceled,2017-08-07,2017-08-07,2017-08-07
+72818,City Hotel,1,0,2017,August,32,7,1,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,150.0,0,0,Canceled,2017-08-07,2017-08-07,2017-08-07
+72860,City Hotel,1,0,2017,August,32,8,0,2,1,0.0,0,BB,PRT,Aviation,Corporate,0,0,0,A,A,0,No Deposit,,153.0,0,Transient,80.0,0,0,Canceled,2017-08-08,2017-08-08,2017-08-08
+72882,City Hotel,1,0,2017,August,32,9,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,1,No Deposit,,,0,Transient,150.0,0,1,Canceled,2017-08-09,2017-08-09,2017-08-09
+72886,City Hotel,1,0,2017,August,32,9,0,1,2,0.0,0,SC,ZAF,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,160.0,0,2,No-Show,2017-08-09,2017-08-09,2017-08-09
+72893,City Hotel,1,6,2017,August,32,9,0,3,2,0.0,0,BB,FRA,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,144.0,0,1,Canceled,2017-08-05,2017-08-09,2017-08-03
+72898,City Hotel,1,7,2017,August,32,9,0,3,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,199.0,0,4,No-Show,2017-08-09,2017-08-09,2017-08-02
+72907,City Hotel,1,6,2017,August,32,9,0,3,2,0.0,0,BB,FRA,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,144.0,0,1,Canceled,2017-08-05,2017-08-09,2017-08-03
+72923,City Hotel,1,0,2017,August,32,10,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,12.0,0,0,Canceled,2017-08-10,2017-08-10,2017-08-10
+72967,City Hotel,1,0,2017,August,32,11,0,0,0,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,P,P,0,No Deposit,,,0,Transient,0.0,0,0,Canceled,2017-08-11,2017-08-11,2017-08-11
+72968,City Hotel,1,0,2017,August,32,11,0,0,0,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,P,P,0,No Deposit,,,0,Transient,0.0,0,0,Canceled,2017-08-11,2017-08-11,2017-08-11
+73000,City Hotel,1,0,2017,August,32,12,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,219.0,0,0,Canceled,2017-08-12,2017-08-12,2017-08-12
+73123,City Hotel,1,11,2017,August,33,15,0,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,12.0,0,0,Canceled,2017-08-10,2017-08-15,2017-08-04
+73125,City Hotel,1,11,2017,August,33,15,0,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,12.0,0,0,Canceled,2017-08-10,2017-08-15,2017-08-04
+73161,City Hotel,1,0,2017,August,33,16,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,12.0,0,0,Canceled,2017-08-16,2017-08-16,2017-08-16
+73168,City Hotel,1,15,2017,August,33,16,0,1,2,0.0,0,SC,DEU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,160.0,0,1,Canceled,2017-08-01,2017-08-16,2017-08-01
+73175,City Hotel,1,13,2017,August,33,16,0,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,160.0,0,0,Canceled,2017-08-10,2017-08-16,2017-08-03
+73179,City Hotel,1,13,2017,August,33,16,0,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,160.0,0,0,Canceled,2017-08-10,2017-08-16,2017-08-03
+73229,City Hotel,1,14,2017,August,33,17,0,1,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,160.0,0,1,Canceled,2017-08-03,2017-08-17,2017-08-03
+73230,City Hotel,1,15,2017,August,33,17,0,1,2,2.0,0,BB,PRT,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,7.0,,0,Transient,205.2,0,0,Canceled,2017-08-03,2017-08-17,2017-08-02
+73241,City Hotel,1,15,2017,August,33,17,0,3,2,0.0,0,BB,ITA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,180.0,0,1,Canceled,2017-08-07,2017-08-17,2017-08-02
+73249,City Hotel,1,1,2017,August,33,17,0,3,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,1,No Deposit,14.0,,0,Transient,170.0,0,0,Canceled,2017-08-16,2017-08-17,2017-08-16
+73288,City Hotel,1,13,2017,August,33,18,0,2,2,0.0,0,SC,NLD,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,140.0,0,0,Canceled,2017-08-07,2017-08-18,2017-08-05
+73294,City Hotel,1,12,2017,August,33,18,0,2,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,230.0,0,0,Canceled,2017-08-12,2017-08-18,2017-08-06
+73297,City Hotel,1,17,2017,August,33,18,1,2,2,0.0,0,BB,IRL,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,183.33,0,1,Canceled,2017-08-04,2017-08-18,2017-08-01
+73330,City Hotel,1,2,2017,August,33,19,0,1,1,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,159.0,0,1,Canceled,2017-08-19,2017-08-19,2017-08-17
+73335,City Hotel,1,0,2017,August,33,19,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Group,318.0,0,0,Canceled,2017-08-19,2017-08-19,2017-08-19
+73373,City Hotel,1,12,2017,August,33,19,2,2,1,0.0,0,BB,ZAF,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,175.0,0,1,Canceled,2017-08-11,2017-08-19,2017-08-07
+73385,City Hotel,1,0,2017,August,34,20,1,0,2,0.0,0,BB,DEU,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,203.6,0,0,Canceled,2017-08-20,2017-08-20,2017-08-20
+73391,City Hotel,1,6,2017,August,34,20,2,1,3,0.0,0,BB,GBR,Direct,Direct,0,0,0,E,E,0,No Deposit,14.0,,0,Transient,230.0,0,1,Canceled,2017-08-17,2017-08-20,2017-08-14
+73410,City Hotel,1,0,2017,August,34,21,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,12.0,0,0,Canceled,2017-08-21,2017-08-21,2017-08-21
+73416,City Hotel,1,12,2017,August,34,21,1,2,2,0.0,0,BB,USA,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,144.0,0,0,Canceled,2017-08-16,2017-08-21,2017-08-09
+73459,City Hotel,1,12,2017,August,34,23,0,1,2,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,A,1,No Deposit,98.0,,0,Transient-Party,130.0,0,0,Canceled,2017-08-16,2017-08-23,2017-08-11
+73469,City Hotel,1,17,2017,August,34,23,0,2,2,0.0,0,SC,USA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,129.5,0,1,Canceled,2017-08-15,2017-08-23,2017-08-06
+73484,City Hotel,1,0,2017,August,34,24,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,12.0,0,0,Canceled,2017-08-24,2017-08-24,2017-08-24
+73485,City Hotel,1,2,2017,August,34,24,0,1,2,0.0,0,BB,PRT,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,No-Show,2017-08-24,2017-08-24,2017-08-22
+73501,City Hotel,1,12,2017,August,34,24,1,3,2,2.0,0,BB,TUN,Direct,Direct,0,0,0,F,F,0,No Deposit,14.0,,0,Transient,222.0,0,0,Canceled,2017-08-24,2017-08-24,2017-08-12
+73506,City Hotel,1,13,2017,August,34,24,1,3,2,0.0,0,SC,CHN,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,122.0,0,0,Canceled,2017-08-23,2017-08-24,2017-08-11
+73545,City Hotel,1,15,2017,August,34,25,2,2,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,101.8,0,1,Canceled,2017-08-10,2017-08-25,2017-08-10
+73573,City Hotel,1,19,2017,August,34,26,2,3,2,0.0,0,BB,CN,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,159.8,0,0,Canceled,2017-08-10,2017-08-26,2017-08-07
+73575,City Hotel,1,21,2017,August,34,26,2,3,2,0.0,0,BB,CN,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,159.8,0,1,Canceled,2017-08-10,2017-08-26,2017-08-05
+73577,City Hotel,1,9,2017,August,34,26,2,5,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,9.0,,0,Transient,232.57,0,1,Canceled,2017-08-17,2017-08-26,2017-08-17
+73588,City Hotel,1,19,2017,August,35,27,1,0,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,89.0,0,1,Canceled,2017-08-08,2017-08-27,2017-08-08
+73593,City Hotel,1,14,2017,August,35,27,1,0,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,89.0,0,1,Canceled,2017-08-13,2017-08-27,2017-08-13
+73596,City Hotel,1,20,2017,August,35,27,1,0,2,1.0,0,BB,NLD,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,129.0,0,1,Canceled,2017-08-07,2017-08-27,2017-08-07
+73597,City Hotel,1,17,2017,August,35,27,1,0,2,0.0,0,SC,USA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,89.0,0,1,Canceled,2017-08-26,2017-08-27,2017-08-10
+73604,City Hotel,1,10,2017,August,35,27,2,1,2,0.0,0,SC,CHE,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,126.33,0,1,Canceled,2017-08-17,2017-08-27,2017-08-17
+73605,City Hotel,1,25,2017,August,35,27,2,1,3,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,7.0,,0,Transient,210.4,0,1,Canceled,2017-08-16,2017-08-27,2017-08-02
+73614,City Hotel,1,7,2017,August,35,28,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,160.0,0,2,Canceled,2017-08-22,2017-08-28,2017-08-21
+73644,City Hotel,1,11,2017,August,35,29,0,1,3,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,210.0,0,0,Canceled,2017-08-20,2017-08-29,2017-08-18
+73654,City Hotel,1,26,2017,August,35,29,0,3,2,2.0,0,BB,ESP,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,250.0,0,1,Canceled,2017-08-07,2017-08-29,2017-08-03
+73670,City Hotel,1,23,2017,August,35,30,0,2,2,2.0,0,BB,IDN,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,250.0,0,0,Canceled,2017-08-08,2017-08-30,2017-08-07
+73675,City Hotel,1,13,2017,August,35,30,0,3,2,2.0,0,BB,RUS,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,246.33,0,0,Canceled,2017-08-24,2017-08-30,2017-08-17
+73702,City Hotel,1,23,2017,August,35,31,0,3,2,2.0,0,BB,GBR,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,242.67,0,0,Canceled,2017-08-16,2017-08-31,2017-08-08
+73703,City Hotel,1,14,2017,August,35,31,1,3,3,0.0,0,BB,KWT,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,9.0,,0,Transient,231.75,0,0,Canceled,2017-08-17,2017-08-31,2017-08-17
+76731,City Hotel,0,0,2017,August,34,22,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,6,72,A,D,0,No Deposit,,40.0,0,Transient,67.0,0,2,Check-Out,2017-08-23,2017-08-22,2017-08-22
+78338,City Hotel,0,6,2017,August,34,23,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,4,30,A,A,0,No Deposit,,40.0,0,Transient,67.0,0,1,Check-Out,2017-08-24,2017-08-23,2017-08-17
+78578,City Hotel,0,5,2017,August,34,22,0,2,1,0.0,0,BB,PRT,Corporate,Corporate,1,1,16,A,A,0,No Deposit,,40.0,0,Transient,67.0,1,1,Check-Out,2017-08-24,2017-08-22,2017-08-17
+85513,City Hotel,0,8,2017,August,35,30,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,3,A,A,0,No Deposit,,219.0,0,Transient,80.0,0,2,Check-Out,2017-08-31,2017-08-30,2017-08-22
+85647,City Hotel,1,4,2017,August,35,28,1,0,1,0.0,0,BB,PRT,Complementary,Corporate,1,0,3,A,A,0,No Deposit,,72.0,0,Transient,0.0,0,2,No-Show,2017-08-28,2017-08-28,2017-08-24
+92617,City Hotel,0,14,2017,August,35,31,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,3,A,A,1,No Deposit,,40.0,0,Transient,67.0,1,2,Check-Out,2017-09-01,2017-08-31,2017-08-17
+92823,City Hotel,0,5,2017,August,33,16,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,1,A,A,0,No Deposit,,40.0,0,Transient,67.0,1,2,Check-Out,2017-08-17,2017-08-16,2017-08-11
+94238,City Hotel,0,3,2017,August,35,31,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,21,A,A,0,No Deposit,,40.0,0,Transient,67.0,0,3,Check-Out,2017-09-01,2017-08-31,2017-08-28
+94300,City Hotel,0,7,2017,August,34,24,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,1,11,A,A,0,No Deposit,,40.0,0,Transient,67.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-17
+94315,City Hotel,0,5,2017,August,33,16,0,2,1,0.0,0,BB,PRT,Corporate,Corporate,1,1,7,A,D,0,No Deposit,,40.0,0,Transient,67.0,1,2,Check-Out,2017-08-18,2017-08-16,2017-08-11
+94397,City Hotel,0,0,2017,August,31,1,0,1,1,0.0,0,BB,PRT,Complementary,Direct,1,5,18,A,A,0,No Deposit,,45.0,0,Transient,0.0,0,3,Check-Out,2017-08-02,2017-08-01,2017-08-01
+94398,City Hotel,0,1,2017,August,32,8,0,1,1,0.0,0,BB,PRT,Complementary,Direct,1,5,19,A,C,1,No Deposit,,45.0,0,Transient,0.0,0,3,Check-Out,2017-08-09,2017-08-08,2017-08-07
+94399,City Hotel,0,0,2017,August,33,15,0,1,1,0.0,0,BB,PRT,Complementary,Direct,1,5,20,A,A,0,No Deposit,,45.0,0,Transient,0.0,0,3,Check-Out,2017-08-16,2017-08-15,2017-08-15
+94400,City Hotel,0,0,2017,August,34,23,0,1,1,0.0,0,BB,PRT,Complementary,Direct,1,5,21,A,A,0,No Deposit,,45.0,0,Transient,0.0,0,3,Check-Out,2017-08-24,2017-08-23,2017-08-23
+95906,City Hotel,0,6,2017,August,34,22,0,3,1,0.0,0,BB,PRT,Complementary,Corporate,1,1,19,A,A,1,No Deposit,,40.0,0,Transient,0.0,1,1,Check-Out,2017-08-25,2017-08-22,2017-08-16
+96291,City Hotel,0,1,2017,August,35,29,0,2,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,6,A,A,0,No Deposit,,40.0,0,Transient,67.0,0,3,Check-Out,2017-08-31,2017-08-29,2017-08-28
+96898,City Hotel,0,3,2017,August,33,14,1,0,1,0.0,0,BB,PRT,Corporate,Direct,1,0,5,D,D,1,No Deposit,,,0,Transient,95.0,1,2,Check-Out,2017-08-15,2017-08-14,2017-08-11
+97936,City Hotel,0,1,2017,August,32,8,0,2,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,1,A,D,0,No Deposit,,40.0,0,Transient,67.0,1,0,Check-Out,2017-08-10,2017-08-08,2017-08-07
+99504,City Hotel,0,6,2017,August,35,29,0,3,1,0.0,0,BB,PRT,Corporate,Corporate,1,1,7,A,A,0,No Deposit,,40.0,0,Transient,65.0,0,3,Check-Out,2017-09-01,2017-08-29,2017-08-23
+101909,City Hotel,0,6,2017,August,34,23,0,2,2,1.0,1,BB,PRT,Direct,Direct,1,0,1,A,A,1,No Deposit,,,0,Transient,100.0,1,3,Check-Out,2017-08-25,2017-08-23,2017-08-17
+102495,City Hotel,0,1,2017,August,31,2,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,5,D,D,0,No Deposit,,219.0,0,Transient,95.0,0,2,Check-Out,2017-08-03,2017-08-02,2017-08-01
+103165,City Hotel,0,0,2017,August,35,29,0,1,1,0.0,0,BB,PRT,Direct,Direct,1,0,5,A,A,1,No Deposit,,408.0,0,Transient,80.0,0,0,Check-Out,2017-08-30,2017-08-29,2017-08-29
+110910,City Hotel,0,11,2017,August,34,22,0,1,1,0.0,0,SC,NLD,Online TA,TA/TO,1,0,1,A,D,1,No Deposit,9.0,,0,Transient,140.0,0,0,Check-Out,2017-08-23,2017-08-22,2017-08-11
+111359,City Hotel,0,13,2017,August,35,29,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,1,7,A,A,0,No Deposit,,238.0,0,Transient,65.0,0,0,Check-Out,2017-08-30,2017-08-29,2017-08-16
+112516,City Hotel,0,0,2017,August,32,7,1,2,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,9,A,A,0,No Deposit,,485.0,0,Transient,75.0,0,3,Check-Out,2017-08-10,2017-08-07,2017-08-07
+117295,City Hotel,1,0,2017,August,31,2,0,2,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,0,A,C,0,No Deposit,,40.0,0,Transient,65.0,0,1,No-Show,2017-08-02,2017-08-02,2017-08-02
+117319,City Hotel,0,5,2017,August,32,7,1,1,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,1,A,A,0,No Deposit,,40.0,0,Transient,67.0,1,1,Check-Out,2017-08-09,2017-08-07,2017-08-02
+117367,City Hotel,0,0,2017,August,31,1,0,2,2,1.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,179.0,1,0,Check-Out,2017-08-03,2017-08-01,2017-08-01
+117398,City Hotel,0,0,2017,August,31,2,0,1,3,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,1,No Deposit,,,0,Transient,169.0,0,0,Check-Out,2017-08-03,2017-08-02,2017-08-02
+117412,City Hotel,0,0,2017,August,31,1,0,2,1,0.0,0,BB,FIN,Online TA,TA/TO,0,0,0,D,D,1,No Deposit,9.0,,0,Transient,160.0,0,0,Check-Out,2017-08-03,2017-08-01,2017-08-01
+117424,City Hotel,0,3,2017,August,35,31,0,1,2,1.0,0,BB,PRT,Corporate,Corporate,1,0,1,A,A,0,No Deposit,,40.0,0,Transient,95.0,0,4,Check-Out,2017-09-01,2017-08-31,2017-08-28
+117426,City Hotel,0,2,2017,August,31,3,0,1,2,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,0,No Deposit,509.0,,0,Transient-Party,166.0,0,0,Check-Out,2017-08-04,2017-08-03,2017-08-01
+117428,City Hotel,0,2,2017,August,31,3,0,1,2,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,2,No Deposit,509.0,,0,Transient-Party,166.0,0,0,Check-Out,2017-08-04,2017-08-03,2017-08-01
+117430,City Hotel,0,2,2017,August,31,3,0,1,2,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,0,No Deposit,509.0,,0,Transient-Party,166.0,0,1,Check-Out,2017-08-04,2017-08-03,2017-08-01
+117431,City Hotel,0,2,2017,August,31,3,0,1,2,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,0,No Deposit,509.0,,0,Transient-Party,166.0,0,0,Check-Out,2017-08-04,2017-08-03,2017-08-01
+117432,City Hotel,0,2,2017,August,31,3,0,1,2,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,0,No Deposit,509.0,,0,Transient-Party,166.0,0,0,Check-Out,2017-08-04,2017-08-03,2017-08-01
+117433,City Hotel,0,2,2017,August,31,3,0,1,2,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,0,No Deposit,509.0,,0,Transient-Party,166.0,0,0,Check-Out,2017-08-04,2017-08-03,2017-08-01
+117438,City Hotel,0,0,2017,August,31,3,0,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,E,0,No Deposit,9.0,,0,Transient,125.1,0,1,Check-Out,2017-08-04,2017-08-03,2017-08-03
+117451,City Hotel,0,0,2017,August,31,3,0,1,2,2.0,0,BB,FRA,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,219.0,0,0,Check-Out,2017-08-04,2017-08-03,2017-08-03
+117452,City Hotel,0,1,2017,August,31,3,0,1,3,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,188.0,0,3,Check-Out,2017-08-04,2017-08-03,2017-08-02
+117467,City Hotel,0,2,2017,August,31,3,0,1,1,0.0,0,BB,NLD,Online TA,TA/TO,0,0,0,A,D,0,No Deposit,9.0,,0,Transient,140.0,0,1,Check-Out,2017-08-04,2017-08-03,2017-08-01
+117471,City Hotel,0,2,2017,August,31,3,0,1,2,1.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,10,No Deposit,509.0,,0,Transient-Party,216.5,0,1,Check-Out,2017-08-04,2017-08-03,2017-08-01
+117473,City Hotel,0,2,2017,August,31,3,0,1,2,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,0,No Deposit,509.0,,0,Transient-Party,166.0,0,1,Check-Out,2017-08-04,2017-08-03,2017-08-01
+117478,City Hotel,0,0,2017,August,31,3,0,1,2,0.0,0,SC,USA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,152.0,,0,Transient,69.01,0,0,Check-Out,2017-08-04,2017-08-03,2017-08-03
+117483,City Hotel,0,1,2017,August,31,4,0,1,3,0.0,0,BB,NLD,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,190.0,0,1,Check-Out,2017-08-05,2017-08-04,2017-08-03
+117499,City Hotel,0,1,2017,August,31,3,0,2,2,1.0,0,BB,NLD,Online TA,TA/TO,0,0,0,D,D,1,No Deposit,9.0,,0,Transient,185.0,0,0,Check-Out,2017-08-05,2017-08-03,2017-08-02
+117500,City Hotel,0,0,2017,August,31,3,0,2,2,0.0,0,BB,RUS,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,7.0,,0,Transient,119.6,0,1,Check-Out,2017-08-05,2017-08-03,2017-08-03
+117503,City Hotel,0,0,2017,August,31,3,0,2,2,0.0,0,BB,RUS,Online TA,TA/TO,0,0,0,A,D,0,No Deposit,7.0,,0,Transient,111.6,0,1,Check-Out,2017-08-05,2017-08-03,2017-08-03
+117520,City Hotel,0,1,2017,August,31,4,0,1,2,1.0,0,BB,RUS,Direct,Direct,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,170.0,0,0,Check-Out,2017-08-05,2017-08-04,2017-08-03
+117524,City Hotel,0,2,2017,August,31,4,0,1,3,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,230.0,0,1,Check-Out,2017-08-05,2017-08-04,2017-08-02
+117525,City Hotel,0,2,2017,August,31,3,0,2,2,0.0,0,BB,IRL,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,7.0,,0,Transient,140.0,0,1,Check-Out,2017-08-05,2017-08-03,2017-08-01
+117530,City Hotel,0,2,2017,August,31,3,0,2,2,0.0,0,BB,IRL,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,7.0,,0,Transient,140.0,0,1,Check-Out,2017-08-05,2017-08-03,2017-08-01
+117547,City Hotel,0,0,2017,August,31,5,0,1,3,0.0,0,BB,SWE,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,249.0,0,0,Check-Out,2017-08-06,2017-08-05,2017-08-05
+117553,City Hotel,0,2,2017,August,31,5,0,1,3,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,234.0,0,1,Check-Out,2017-08-06,2017-08-05,2017-08-03
+117557,City Hotel,0,2,2017,August,31,5,0,1,3,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,234.0,2,1,Check-Out,2017-08-06,2017-08-05,2017-08-03
+117573,City Hotel,0,0,2017,August,31,5,0,1,1,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,179.0,0,0,Check-Out,2017-08-06,2017-08-05,2017-08-05
+117600,City Hotel,0,1,2017,August,31,3,1,3,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,182.5,0,0,Check-Out,2017-08-07,2017-08-03,2017-08-02
+117603,City Hotel,0,0,2017,August,32,6,1,0,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,D,0,No Deposit,9.0,,0,Transient,160.0,0,2,Check-Out,2017-08-07,2017-08-06,2017-08-06
+117616,City Hotel,0,0,2017,August,32,6,1,0,2,1.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,170.0,0,0,Check-Out,2017-08-07,2017-08-06,2017-08-06
+117660,City Hotel,0,1,2017,August,32,7,1,0,2,0.0,0,SC,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,160.0,0,0,Check-Out,2017-08-08,2017-08-07,2017-08-06
+117661,City Hotel,0,0,2017,August,32,7,1,0,3,0.0,0,BB,ARG,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,210.0,0,0,Check-Out,2017-08-08,2017-08-07,2017-08-07
+117669,City Hotel,0,0,2017,August,32,7,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,2,No Deposit,,,0,Transient,135.0,0,0,Check-Out,2017-08-08,2017-08-07,2017-08-07
+117673,City Hotel,0,1,2017,August,32,7,1,0,2,2.0,0,BB,FRA,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,279.0,0,2,Check-Out,2017-08-08,2017-08-07,2017-08-06
+117678,City Hotel,0,0,2017,August,32,7,1,0,2,0.0,0,BB,ITA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,160.0,0,1,Check-Out,2017-08-08,2017-08-07,2017-08-07
+117679,City Hotel,0,4,2017,August,32,7,1,0,1,0.0,0,BB,PRT,Corporate,Corporate,0,0,0,A,A,0,No Deposit,,40.0,0,Transient,67.0,0,2,Check-Out,2017-08-08,2017-08-07,2017-08-03
+117689,City Hotel,0,0,2017,August,32,7,1,0,2,0.0,0,BB,USA,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,160.0,0,0,Check-Out,2017-08-08,2017-08-07,2017-08-07
+117696,City Hotel,0,0,2017,August,32,7,1,0,2,0.0,0,BB,USA,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,160.0,0,0,Check-Out,2017-08-08,2017-08-07,2017-08-07
+117698,City Hotel,0,0,2017,August,32,7,1,0,2,0.0,0,SC,BRA,Online TA,TA/TO,0,0,0,A,E,0,No Deposit,152.0,,0,Transient,87.82,0,0,Check-Out,2017-08-08,2017-08-07,2017-08-07
+117699,City Hotel,0,2,2017,August,31,5,2,1,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,2,No Deposit,425.0,,0,Transient,197.6,1,1,Check-Out,2017-08-08,2017-08-05,2017-08-03
+117701,City Hotel,0,0,2017,August,32,8,0,0,2,0.0,0,BB,PRT,Offline TA/TO,TA/TO,1,0,0,A,A,0,No Deposit,262.0,,0,Transient,0.0,0,0,Check-Out,2017-08-08,2017-08-08,2017-08-08
+117706,City Hotel,0,5,2017,August,32,7,1,1,2,0.0,0,BB,CN,Online TA,TA/TO,0,0,0,D,E,0,No Deposit,9.0,,0,Transient,190.0,0,2,Check-Out,2017-08-09,2017-08-07,2017-08-02
+117738,City Hotel,0,0,2017,August,32,8,0,1,2,0.0,0,SC,NLD,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,169.0,0,1,Check-Out,2017-08-09,2017-08-08,2017-08-08
+117750,City Hotel,0,2,2017,August,31,5,2,2,2,0.0,0,SC,AUT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,128.0,0,1,Check-Out,2017-08-09,2017-08-05,2017-08-03
+117764,City Hotel,0,0,2017,August,32,8,0,1,2,2.0,0,BB,PRT,Direct,Direct,0,0,0,G,G,0,No Deposit,,,0,Transient,269.0,0,0,Check-Out,2017-08-09,2017-08-08,2017-08-08
+117765,City Hotel,0,6,2017,August,32,7,1,1,3,0.0,0,BB,CHE,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,7.0,,0,Transient,183.99,0,1,Check-Out,2017-08-09,2017-08-07,2017-08-01
+117766,City Hotel,0,0,2017,August,32,8,0,1,2,0.0,0,SC,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,169.0,0,2,Check-Out,2017-08-09,2017-08-08,2017-08-08
+117776,City Hotel,0,3,2017,August,31,5,2,3,1,0.0,0,SC,FRA,Direct,Direct,0,0,0,A,D,1,No Deposit,14.0,,0,Transient,188.0,1,1,Check-Out,2017-08-10,2017-08-05,2017-08-02
+117779,City Hotel,0,2,2017,August,32,9,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,180.0,0,1,Check-Out,2017-08-10,2017-08-09,2017-08-07
+117780,City Hotel,0,0,2017,August,32,9,0,1,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,D,0,No Deposit,152.0,,0,Transient,118.08,0,0,Check-Out,2017-08-10,2017-08-09,2017-08-09
+117783,City Hotel,0,5,2017,August,32,8,0,2,1,0.0,0,BB,NOR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,136.0,0,1,Check-Out,2017-08-10,2017-08-08,2017-08-03
+117785,City Hotel,0,8,2017,August,32,9,0,1,1,0.0,0,BB,ESP,Corporate,Corporate,0,0,0,A,C,0,No Deposit,,91.0,0,Transient,80.0,0,0,Check-Out,2017-08-10,2017-08-09,2017-08-01
+117786,City Hotel,0,8,2017,August,32,9,0,1,1,0.0,0,BB,ESP,Corporate,Corporate,0,0,0,A,A,0,No Deposit,,91.0,0,Transient,80.0,0,0,Check-Out,2017-08-10,2017-08-09,2017-08-01
+117791,City Hotel,0,0,2017,August,32,9,0,1,1,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,B,0,No Deposit,,,0,Transient,140.0,0,0,Check-Out,2017-08-10,2017-08-09,2017-08-09
+117793,City Hotel,0,3,2017,August,32,9,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,189.0,1,1,Check-Out,2017-08-10,2017-08-09,2017-08-06
+117811,City Hotel,0,6,2017,August,32,7,1,2,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,160.0,0,2,Check-Out,2017-08-10,2017-08-07,2017-08-01
+117812,City Hotel,0,3,2017,August,32,7,1,2,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,169.0,0,0,Check-Out,2017-08-10,2017-08-07,2017-08-04
+117827,City Hotel,0,7,2017,August,32,9,0,1,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,160.0,0,1,Check-Out,2017-08-10,2017-08-09,2017-08-02
+117828,City Hotel,0,1,2017,August,31,3,2,5,2,0.0,0,BB,DNK,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,168.43,0,0,Check-Out,2017-08-10,2017-08-03,2017-08-02
+117831,City Hotel,0,0,2017,August,32,6,2,2,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,4,No Deposit,,,0,Transient,160.0,0,0,Check-Out,2017-08-10,2017-08-06,2017-08-06
+117841,City Hotel,0,7,2017,August,35,30,0,2,1,0.0,0,BB,PRT,Corporate,Corporate,1,0,1,A,A,0,No Deposit,,40.0,0,Transient,65.0,0,2,Check-Out,2017-09-01,2017-08-30,2017-08-23
+117847,City Hotel,0,0,2017,August,32,10,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,150.0,0,0,Check-Out,2017-08-11,2017-08-10,2017-08-10
+117849,City Hotel,0,0,2017,August,32,10,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,180.0,0,0,Check-Out,2017-08-11,2017-08-10,2017-08-10
+117852,City Hotel,0,6,2017,August,32,10,0,1,3,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,230.0,0,1,Check-Out,2017-08-11,2017-08-10,2017-08-04
+117857,City Hotel,0,1,2017,August,32,8,0,3,2,0.0,0,SC,USA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,152.0,,0,Transient,92.21,0,0,Check-Out,2017-08-11,2017-08-08,2017-08-07
+117871,City Hotel,0,0,2017,August,32,9,0,2,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,B,0,No Deposit,9.0,,0,Transient,170.0,0,2,Check-Out,2017-08-11,2017-08-09,2017-08-09
+117873,City Hotel,0,1,2017,August,32,9,0,2,3,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,229.0,0,1,Check-Out,2017-08-11,2017-08-09,2017-08-08
+117874,City Hotel,0,1,2017,August,32,10,0,1,2,0.0,0,SC,USA,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,190.0,0,0,Check-Out,2017-08-11,2017-08-10,2017-08-09
+117913,City Hotel,0,1,2017,August,32,11,0,1,2,1.0,0,BB,POL,Online TA,TA/TO,0,0,0,D,D,1,No Deposit,9.0,,0,Transient,230.0,0,0,Check-Out,2017-08-12,2017-08-11,2017-08-10
+117924,City Hotel,0,0,2017,August,32,11,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,180.0,0,0,Check-Out,2017-08-12,2017-08-11,2017-08-11
+117927,City Hotel,0,3,2017,August,32,9,0,3,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,230.0,0,1,Check-Out,2017-08-12,2017-08-09,2017-08-06
+117933,City Hotel,0,1,2017,August,32,11,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,75.0,0,3,Check-Out,2017-08-12,2017-08-11,2017-08-10
+117936,City Hotel,0,1,2017,August,32,11,0,1,2,2.0,0,BB,USA,Direct,Direct,0,0,0,G,G,0,No Deposit,14.0,,0,Transient,290.0,0,0,Check-Out,2017-08-12,2017-08-11,2017-08-10
+117939,City Hotel,0,5,2017,August,32,10,0,2,2,0.0,0,BB,NLD,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,180.0,0,1,Check-Out,2017-08-12,2017-08-10,2017-08-05
+117943,City Hotel,0,2,2017,August,32,9,0,3,2,0.0,0,BB,LAO,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,183.33,0,1,Check-Out,2017-08-12,2017-08-09,2017-08-07
+117944,City Hotel,0,3,2017,August,32,10,0,2,2,0.0,0,BB,LAO,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,180.0,0,1,Check-Out,2017-08-12,2017-08-10,2017-08-07
+117946,City Hotel,0,1,2017,August,32,11,0,1,1,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,75.0,0,2,Check-Out,2017-08-12,2017-08-11,2017-08-10
+117947,City Hotel,0,0,2017,August,32,11,0,1,2,3.0,0,BB,BEL,Direct,Direct,0,0,0,F,F,1,No Deposit,,,0,Transient,250.0,0,0,Check-Out,2017-08-12,2017-08-11,2017-08-11
+117951,City Hotel,0,4,2017,August,32,10,0,2,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,199.0,0,1,Check-Out,2017-08-12,2017-08-10,2017-08-06
+117953,City Hotel,0,4,2017,August,32,9,0,3,2,0.0,0,BB,NOR,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,7.0,,0,Transient,152.0,0,1,Check-Out,2017-08-12,2017-08-09,2017-08-05
+117954,City Hotel,0,0,2017,August,32,10,0,2,2,0.0,0,SC,ITA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,189.0,0,0,Check-Out,2017-08-12,2017-08-10,2017-08-10
+117955,City Hotel,0,10,2017,August,32,11,0,1,2,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,189.0,0,0,Check-Out,2017-08-12,2017-08-11,2017-08-01
+117960,City Hotel,0,9,2017,August,32,12,2,1,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,K,3,No Deposit,9.0,,0,Transient-Party,0.0,0,0,Check-Out,2017-08-15,2017-08-12,2017-08-03
+117961,City Hotel,0,0,2017,August,32,12,0,1,2,0.0,0,HB,FRA,Direct,Direct,1,0,0,D,D,1,No Deposit,14.0,,0,Transient,240.0,0,2,Check-Out,2017-08-13,2017-08-12,2017-08-12
+117962,City Hotel,0,9,2017,August,32,11,0,2,2,0.0,0,BB,BLR,Offline TA/TO,TA/TO,0,0,0,A,A,0,No Deposit,2.0,,0,Transient,144.5,0,0,Check-Out,2017-08-13,2017-08-11,2017-08-02
+117964,City Hotel,0,6,2017,August,32,10,0,3,2,0.0,0,SC,SWE,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,166.67,0,2,Check-Out,2017-08-13,2017-08-10,2017-08-04
+117967,City Hotel,0,3,2017,August,32,8,0,5,2,0.0,0,SC,SWE,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,124.63,0,1,Check-Out,2017-08-13,2017-08-08,2017-08-05
+117977,City Hotel,0,7,2017,August,32,10,0,3,2,0.0,0,BB,MAR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,195.67,0,2,Check-Out,2017-08-13,2017-08-10,2017-08-03
+117978,City Hotel,0,7,2017,August,32,10,0,3,2,0.0,0,BB,MAR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,186.67,0,2,Check-Out,2017-08-13,2017-08-10,2017-08-03
+117990,City Hotel,0,0,2017,August,32,11,0,2,2,0.0,0,BB,ITA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,209.0,0,0,Check-Out,2017-08-13,2017-08-11,2017-08-11
+118000,City Hotel,0,0,2017,August,32,11,0,2,2,0.0,0,BB,CHN,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,240.0,0,1,Check-Out,2017-08-13,2017-08-11,2017-08-11
+118001,City Hotel,0,0,2017,August,32,11,0,2,2,1.0,0,SC,CHN,Online TA,TA/TO,0,0,0,A,B,1,No Deposit,9.0,,0,Transient,170.0,0,1,Check-Out,2017-08-13,2017-08-11,2017-08-11
+118005,City Hotel,0,1,2017,August,32,12,0,1,3,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,250.0,0,1,Check-Out,2017-08-13,2017-08-12,2017-08-11
+118006,City Hotel,0,0,2017,August,32,12,0,1,1,0.0,0,BB,DEU,Direct,Direct,0,0,0,A,C,1,No Deposit,,,0,Transient,199.0,0,0,Check-Out,2017-08-13,2017-08-12,2017-08-12
+118007,City Hotel,0,2,2017,August,32,10,0,3,3,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,230.0,0,0,Check-Out,2017-08-13,2017-08-10,2017-08-08
+118024,City Hotel,0,1,2017,August,32,12,0,1,3,0.0,0,BB,FRA,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,240.0,0,2,Check-Out,2017-08-13,2017-08-12,2017-08-11
+118029,City Hotel,0,0,2017,August,33,14,0,0,2,0.0,0,BB,PRT,Direct,Direct,1,0,0,A,A,0,No Deposit,,,0,Transient,0.0,0,0,Check-Out,2017-08-14,2017-08-14,2017-08-14
+118040,City Hotel,0,0,2017,August,33,13,1,0,3,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,139.0,0,0,Check-Out,2017-08-14,2017-08-13,2017-08-13
+118048,City Hotel,0,0,2017,August,33,13,1,0,2,0.0,0,BB,FRA,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,180.0,0,0,Check-Out,2017-08-14,2017-08-13,2017-08-13
+118050,City Hotel,0,1,2017,August,32,11,1,2,2,0.0,0,BB,PRT,Online TA,GDS,0,0,0,A,A,0,No Deposit,195.0,,0,Transient,200.0,0,1,Check-Out,2017-08-14,2017-08-11,2017-08-10
+118055,City Hotel,0,5,2017,August,33,13,1,0,2,0.0,0,BB,PRY,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,85.0,,0,Transient,89.0,0,0,Check-Out,2017-08-14,2017-08-13,2017-08-08
+118062,City Hotel,0,2,2017,August,32,12,1,1,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,180.0,0,1,Check-Out,2017-08-14,2017-08-12,2017-08-10
+118070,City Hotel,0,6,2017,August,32,10,1,3,2,0.0,0,BB,IRL,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,200.0,0,0,Check-Out,2017-08-14,2017-08-10,2017-08-04
+118079,City Hotel,0,0,2017,August,33,13,1,0,2,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,K,1,No Deposit,152.0,,0,Transient,98.4,0,0,Check-Out,2017-08-14,2017-08-13,2017-08-13
+118092,City Hotel,0,1,2017,August,33,14,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,A,2,No Deposit,,,0,Transient,180.0,0,0,Check-Out,2017-08-15,2017-08-14,2017-08-13
+118099,City Hotel,0,7,2017,August,33,14,1,0,2,0.0,0,SC,BRA,Online TA,TA/TO,0,0,0,A,D,0,No Deposit,9.0,,0,Transient,180.0,0,0,Check-Out,2017-08-15,2017-08-14,2017-08-07
+118119,City Hotel,0,1,2017,August,33,13,2,0,2,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,210.0,0,2,Check-Out,2017-08-15,2017-08-13,2017-08-12
+118129,City Hotel,0,9,2017,August,32,12,2,1,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,2,No Deposit,9.0,,0,Transient-Party,166.67,0,0,Check-Out,2017-08-15,2017-08-12,2017-08-03
+118143,City Hotel,0,1,2017,August,33,14,1,0,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,144.0,0,1,Check-Out,2017-08-15,2017-08-14,2017-08-13
+118145,City Hotel,0,1,2017,August,32,12,2,1,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,152.0,,0,Transient,126.19,0,0,Check-Out,2017-08-15,2017-08-12,2017-08-11
+118146,City Hotel,0,4,2017,August,32,12,2,1,3,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,233.33,0,0,Check-Out,2017-08-15,2017-08-12,2017-08-08
+118148,City Hotel,0,7,2017,August,32,12,2,1,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,180.0,0,1,Check-Out,2017-08-15,2017-08-12,2017-08-05
+118152,City Hotel,0,6,2017,August,33,13,2,1,2,0.0,1,BB,ROU,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,210.0,0,3,Check-Out,2017-08-16,2017-08-13,2017-08-07
+118165,City Hotel,0,3,2017,August,32,6,4,6,2,0.0,0,BB,FRA,Offline TA/TO,TA/TO,0,0,0,A,A,1,No Deposit,20.0,,0,Group,89.0,0,0,Check-Out,2017-08-16,2017-08-06,2017-08-03
+118180,City Hotel,0,5,2017,August,33,14,1,1,2,1.0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,B,0,No Deposit,9.0,,0,Transient,220.0,0,2,Check-Out,2017-08-16,2017-08-14,2017-08-09
+118182,City Hotel,0,1,2017,August,33,15,0,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,200.0,0,0,Check-Out,2017-08-16,2017-08-15,2017-08-14
+118185,City Hotel,0,4,2017,August,33,13,2,1,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,200.0,0,1,Check-Out,2017-08-16,2017-08-13,2017-08-09
+118186,City Hotel,0,4,2017,August,33,15,0,1,2,2.0,0,BB,ISR,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,290.0,0,0,Check-Out,2017-08-16,2017-08-15,2017-08-11
+118190,City Hotel,0,3,2017,August,33,13,2,1,1,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,180.0,0,1,Check-Out,2017-08-16,2017-08-13,2017-08-10
+118194,City Hotel,0,0,2017,August,33,15,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,9.0,,0,Transient-Party,219.0,0,0,Check-Out,2017-08-16,2017-08-15,2017-08-15
+118195,City Hotel,0,0,2017,August,33,15,0,1,2,1.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient-Party,199.0,0,0,Check-Out,2017-08-16,2017-08-15,2017-08-15
+118200,City Hotel,0,10,2017,August,32,12,2,2,0,3.0,0,BB,MAR,Direct,Direct,0,0,0,B,A,1,No Deposit,,,0,Transient-Party,6.0,0,1,Check-Out,2017-08-16,2017-08-12,2017-08-02
+118201,City Hotel,0,10,2017,August,32,12,2,2,2,0.0,0,BB,CN,Direct,Direct,0,0,0,B,A,1,No Deposit,,,0,Transient-Party,99.0,0,0,Check-Out,2017-08-16,2017-08-12,2017-08-02
+118206,City Hotel,0,9,2017,August,33,13,2,1,2,0.0,0,BB,CN,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,3.0,,0,Transient,99.0,0,2,Check-Out,2017-08-16,2017-08-13,2017-08-04
+118221,City Hotel,0,0,2017,August,33,16,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,139.0,0,0,Check-Out,2017-08-17,2017-08-16,2017-08-16
+118245,City Hotel,0,0,2017,August,33,16,0,1,2,2.0,0,BB,USA,Direct,Direct,0,0,0,F,F,0,No Deposit,,,0,Transient,259.0,0,1,Check-Out,2017-08-17,2017-08-16,2017-08-16
+118248,City Hotel,0,0,2017,August,33,16,0,1,2,0.0,0,SC,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,139.0,0,0,Check-Out,2017-08-17,2017-08-16,2017-08-16
+118292,City Hotel,0,11,2017,August,33,14,1,3,1,1.0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,136.0,0,1,Check-Out,2017-08-18,2017-08-14,2017-08-03
+118296,City Hotel,0,10,2017,August,33,16,0,2,2,2.0,0,BB,FRA,Direct,Direct,0,0,0,F,F,0,No Deposit,14.0,,0,Transient,260.0,0,1,Check-Out,2017-08-18,2017-08-16,2017-08-06
+118299,City Hotel,0,12,2017,August,33,17,0,1,2,2.0,0,BB,GBR,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,279.0,0,0,Check-Out,2017-08-18,2017-08-17,2017-08-05
+118306,City Hotel,0,1,2017,August,33,17,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,189.0,0,2,Check-Out,2017-08-18,2017-08-17,2017-08-16
+118311,City Hotel,0,0,2017,August,33,17,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,E,E,0,No Deposit,14.0,,0,Transient,190.0,0,0,Check-Out,2017-08-18,2017-08-17,2017-08-17
+118329,City Hotel,0,8,2017,August,33,15,0,3,1,0.0,0,BB,PRT,Corporate,Corporate,0,0,0,A,A,1,No Deposit,,485.0,0,Transient,84.0,0,3,Check-Out,2017-08-18,2017-08-15,2017-08-07
+118334,City Hotel,0,2,2017,August,33,16,0,3,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,128.0,0,0,Check-Out,2017-08-19,2017-08-16,2017-08-14
+118339,City Hotel,0,0,2017,August,33,18,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,89.5,0,0,Check-Out,2017-08-19,2017-08-18,2017-08-18
+118343,City Hotel,0,10,2017,August,33,18,0,1,2,1.0,0,BB,USA,Direct,Direct,0,0,0,F,F,0,No Deposit,14.0,,0,Transient,260.0,0,1,Check-Out,2017-08-19,2017-08-18,2017-08-08
+118351,City Hotel,0,10,2017,August,33,18,0,1,2,1.0,0,BB,USA,Direct,Direct,0,0,0,F,F,0,No Deposit,14.0,,0,Transient,260.0,0,0,Check-Out,2017-08-19,2017-08-18,2017-08-08
+118368,City Hotel,0,2,2017,August,33,17,0,2,2,0.0,0,SC,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,169.0,0,1,Check-Out,2017-08-19,2017-08-17,2017-08-15
+118386,City Hotel,0,0,2017,August,33,18,0,1,2,1.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,89.5,0,0,Check-Out,2017-08-19,2017-08-18,2017-08-18
+118400,City Hotel,0,5,2017,August,33,18,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,K,0,No Deposit,,,0,Transient,144.0,0,1,Check-Out,2017-08-19,2017-08-18,2017-08-13
+118405,City Hotel,0,2,2017,August,33,18,0,2,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,127.6,0,1,Check-Out,2017-08-20,2017-08-18,2017-08-16
+118408,City Hotel,0,11,2017,August,33,14,1,5,2,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,189.0,0,1,Check-Out,2017-08-20,2017-08-14,2017-08-03
+118428,City Hotel,0,4,2017,August,33,19,0,1,2,1.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,159.0,,0,Transient,209.0,0,0,Check-Out,2017-08-20,2017-08-19,2017-08-15
+118429,City Hotel,0,1,2017,August,33,19,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,173.5,1,1,Check-Out,2017-08-20,2017-08-19,2017-08-18
+118430,City Hotel,0,1,2017,August,33,19,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,173.5,0,1,Check-Out,2017-08-20,2017-08-19,2017-08-18
+118433,City Hotel,0,6,2017,August,33,18,0,2,2,0.0,0,BB,SWE,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,136.8,0,2,Check-Out,2017-08-20,2017-08-18,2017-08-12
+118434,City Hotel,0,3,2017,August,33,19,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,149.0,0,0,Check-Out,2017-08-20,2017-08-19,2017-08-16
+118435,City Hotel,0,3,2017,August,33,19,0,1,3,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,189.0,0,0,Check-Out,2017-08-20,2017-08-19,2017-08-16
+118437,City Hotel,0,0,2017,August,33,19,0,1,2,0.0,1,BB,ESP,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,169.0,0,0,Check-Out,2017-08-20,2017-08-19,2017-08-19
+118438,City Hotel,0,4,2017,August,33,18,0,2,2,0.0,0,BB,ESP,Direct,Direct,0,0,0,A,A,2,No Deposit,14.0,,0,Transient,189.0,0,2,Check-Out,2017-08-20,2017-08-18,2017-08-14
+118443,City Hotel,0,5,2017,August,33,17,0,3,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,160.0,0,0,Check-Out,2017-08-20,2017-08-17,2017-08-12
+118448,City Hotel,0,13,2017,August,33,17,0,3,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,160.0,0,1,Check-Out,2017-08-20,2017-08-17,2017-08-04
+118449,City Hotel,0,2,2017,August,33,19,0,1,3,0.0,0,BB,LUX,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,219.0,0,0,Check-Out,2017-08-20,2017-08-19,2017-08-17
+118453,City Hotel,0,0,2017,August,33,19,0,1,2,0.0,0,BB,AUS,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,169.0,0,0,Check-Out,2017-08-20,2017-08-19,2017-08-19
+118458,City Hotel,0,13,2017,August,33,19,0,1,2,0.0,0,BB,ISR,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,170.0,0,0,Check-Out,2017-08-20,2017-08-19,2017-08-06
+118464,City Hotel,0,2,2017,August,33,18,0,2,3,0.0,0,BB,TUR,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,229.0,0,0,Check-Out,2017-08-20,2017-08-18,2017-08-16
+118468,City Hotel,0,10,2017,August,33,18,0,2,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,180.0,0,2,Check-Out,2017-08-20,2017-08-18,2017-08-08
+118469,City Hotel,0,2,2017,August,33,19,0,1,2,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,149.0,0,1,Check-Out,2017-08-20,2017-08-19,2017-08-17
+118481,City Hotel,0,16,2017,August,34,20,1,0,2,0.0,0,BB,CN,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,3.0,,0,Transient,99.0,0,2,Check-Out,2017-08-21,2017-08-20,2017-08-04
+118482,City Hotel,0,4,2017,August,34,20,1,0,1,0.0,0,SC,CN,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,119.0,0,0,Check-Out,2017-08-21,2017-08-20,2017-08-16
+118492,City Hotel,0,9,2017,August,33,18,1,2,2,0.0,0,SC,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,162.33,0,1,Check-Out,2017-08-21,2017-08-18,2017-08-09
+118493,City Hotel,0,0,2017,August,34,20,1,0,1,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,A,0,No Deposit,98.0,,0,Transient-Party,115.0,0,0,Check-Out,2017-08-21,2017-08-20,2017-08-20
+118495,City Hotel,0,1,2017,August,33,19,1,1,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,188.1,0,1,Check-Out,2017-08-21,2017-08-19,2017-08-18
+118497,City Hotel,0,12,2017,August,33,19,1,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,1,No Deposit,9.0,,0,Transient,180.0,0,4,Check-Out,2017-08-21,2017-08-19,2017-08-07
+118498,City Hotel,0,12,2017,August,33,19,1,1,2,1.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,190.0,0,4,Check-Out,2017-08-21,2017-08-19,2017-08-07
+118501,City Hotel,0,0,2017,August,34,20,1,0,3,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,198.0,0,0,Check-Out,2017-08-21,2017-08-20,2017-08-20
+118509,City Hotel,0,8,2017,August,34,20,1,0,1,1.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,180.0,0,3,Check-Out,2017-08-21,2017-08-20,2017-08-12
+118510,City Hotel,0,9,2017,August,34,20,1,0,2,0.0,0,HB,DEU,Online TA,TA/TO,0,0,0,A,D,1,No Deposit,9.0,,0,Transient,198.0,0,0,Check-Out,2017-08-21,2017-08-20,2017-08-11
+118511,City Hotel,0,3,2017,August,33,19,1,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,139.0,0,0,Check-Out,2017-08-21,2017-08-19,2017-08-16
+118513,City Hotel,0,9,2017,August,33,18,1,2,2,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,183.33,0,1,Check-Out,2017-08-21,2017-08-18,2017-08-09
+118515,City Hotel,0,14,2017,August,33,18,1,2,3,2.0,0,HB,ESP,Direct,Direct,0,0,0,G,G,1,No Deposit,14.0,,0,Transient,372.33,0,1,Check-Out,2017-08-21,2017-08-18,2017-08-04
+118520,City Hotel,0,14,2017,August,33,18,1,2,2,0.0,0,BB,BRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,183.33,0,1,Check-Out,2017-08-21,2017-08-18,2017-08-04
+118521,City Hotel,0,8,2017,August,34,20,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,150.0,0,3,Check-Out,2017-08-21,2017-08-20,2017-08-12
+118529,City Hotel,0,0,2017,August,33,17,1,3,2,0.0,0,SC,ITA,Online TA,TA/TO,0,0,0,A,C,1,No Deposit,9.0,,0,Transient,143.1,0,1,Check-Out,2017-08-21,2017-08-17,2017-08-17
+118530,City Hotel,0,0,2017,August,33,19,1,1,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,152.0,,0,Transient,110.7,0,0,Check-Out,2017-08-21,2017-08-19,2017-08-19
+118531,City Hotel,0,2,2017,August,33,18,1,2,3,0.0,0,BB,DZA,Online TA,TA/TO,0,0,0,A,A,2,No Deposit,9.0,,0,Transient,192.67,0,0,Check-Out,2017-08-21,2017-08-18,2017-08-16
+118532,City Hotel,0,15,2017,August,33,17,1,3,3,1.0,0,BB,GBR,Online TA,TA/TO,0,0,0,G,G,1,No Deposit,7.0,,0,Transient,236.0,0,1,Check-Out,2017-08-21,2017-08-17,2017-08-02
+118534,City Hotel,0,0,2017,August,34,20,2,0,1,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,A,1,No Deposit,98.0,,0,Transient-Party,115.0,0,0,Check-Out,2017-08-22,2017-08-20,2017-08-20
+118544,City Hotel,0,1,2017,August,34,21,1,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,140.0,0,0,Check-Out,2017-08-22,2017-08-21,2017-08-20
+118552,City Hotel,0,2,2017,August,34,20,2,0,3,0.0,0,BB,AGO,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,204.5,0,1,Check-Out,2017-08-22,2017-08-20,2017-08-18
+118556,City Hotel,0,1,2017,August,33,19,2,1,2,0.0,0,SC,ITA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,152.0,,0,Transient,92.99,0,0,Check-Out,2017-08-22,2017-08-19,2017-08-18
+118557,City Hotel,0,6,2017,August,34,21,1,0,2,3.0,0,BB,USA,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,7.0,,0,Transient,264.44,0,2,Check-Out,2017-08-22,2017-08-21,2017-08-15
+118559,City Hotel,0,0,2017,August,34,21,1,0,2,2.0,0,BB,PRT,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,198.0,0,0,Check-Out,2017-08-22,2017-08-21,2017-08-21
+118560,City Hotel,0,16,2017,August,34,20,2,0,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,210.0,0,0,Check-Out,2017-08-22,2017-08-20,2017-08-04
+118567,City Hotel,0,2,2017,August,33,19,2,1,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,218.33,0,1,Check-Out,2017-08-22,2017-08-19,2017-08-17
+118581,City Hotel,0,11,2017,August,34,25,0,2,2,0.0,0,BB,FRA,Offline TA/TO,TA/TO,0,0,1,D,D,1,No Deposit,98.0,,0,Group,125.0,0,0,Check-Out,2017-08-27,2017-08-25,2017-08-14
+118584,City Hotel,0,2,2017,August,34,20,2,1,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,152.0,,0,Transient,81.7,0,0,Check-Out,2017-08-23,2017-08-20,2017-08-18
+118590,City Hotel,0,11,2017,August,34,22,0,1,1,0.0,0,BB,POL,Online TA,TA/TO,0,0,0,D,G,1,No Deposit,9.0,,0,Transient,170.0,0,0,Check-Out,2017-08-23,2017-08-22,2017-08-11
+118591,City Hotel,0,10,2017,August,34,21,1,1,3,0.0,0,BB,BEL,Online TA,TA/TO,0,0,0,D,D,2,No Deposit,9.0,,0,Transient,210.0,0,2,Check-Out,2017-08-23,2017-08-21,2017-08-11
+118623,City Hotel,0,0,2017,August,34,22,0,1,2,1.0,0,BB,DEU,Direct,Direct,0,0,0,G,G,0,No Deposit,14.0,,0,Transient,195.0,0,1,Check-Out,2017-08-23,2017-08-22,2017-08-22
+118625,City Hotel,0,2,2017,August,33,18,2,3,2,0.0,0,BB,DEU,Direct,Direct,0,0,0,D,D,2,No Deposit,14.0,,0,Transient,174.16,0,1,Check-Out,2017-08-23,2017-08-18,2017-08-16
+118626,City Hotel,0,1,2017,August,34,22,0,1,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,9.0,,0,Transient,199.0,0,1,Check-Out,2017-08-23,2017-08-22,2017-08-21
+118630,City Hotel,0,0,2017,August,34,21,1,1,2,0.0,0,SC,AUS,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,140.0,0,2,Check-Out,2017-08-23,2017-08-21,2017-08-21
+118646,City Hotel,0,15,2017,August,33,19,2,3,2,0.0,0,BB,IRL,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,7.0,,0,Transient,139.2,0,1,Check-Out,2017-08-24,2017-08-19,2017-08-04
+118649,City Hotel,0,0,2017,August,34,23,0,1,1,0.0,0,BB,USA,Offline TA/TO,TA/TO,0,0,0,D,D,0,No Deposit,98.0,,0,Transient-Party,115.0,0,0,Check-Out,2017-08-24,2017-08-23,2017-08-23
+118656,City Hotel,0,12,2017,August,34,20,2,2,1,0.0,0,BB,USA,Groups,TA/TO,0,0,0,A,A,3,No Deposit,98.0,,0,Transient-Party,115.0,0,0,Check-Out,2017-08-24,2017-08-20,2017-08-08
+118668,City Hotel,0,19,2017,August,34,22,0,2,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,169.0,1,1,Check-Out,2017-08-24,2017-08-22,2017-08-03
+118682,City Hotel,0,6,2017,August,34,22,0,2,3,0.0,0,BB,DEU,Offline TA/TO,TA/TO,0,0,0,A,A,0,No Deposit,16.0,,0,Transient,107.1,0,1,Check-Out,2017-08-24,2017-08-22,2017-08-16
+118683,City Hotel,0,16,2017,August,34,23,0,1,1,0.0,0,BB,PRT,Corporate,Corporate,0,0,0,A,D,1,No Deposit,,485.0,0,Transient,75.0,0,4,Check-Out,2017-08-24,2017-08-23,2017-08-07
+118691,City Hotel,0,2,2017,August,34,23,0,1,2,1.0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,D,2,No Deposit,9.0,,0,Transient,179.0,1,2,Check-Out,2017-08-24,2017-08-23,2017-08-21
+118702,City Hotel,0,1,2017,August,34,24,0,1,2,0.0,0,SC,FRA,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,128.0,1,1,Check-Out,2017-08-25,2017-08-24,2017-08-23
+118705,City Hotel,0,10,2017,August,34,24,0,1,2,0.0,0,SC,ROU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,107.1,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-14
+118708,City Hotel,0,0,2017,August,33,19,2,4,2,0.0,0,BB,PRT,Offline TA/TO,TA/TO,0,0,0,A,A,0,No Deposit,98.0,,0,Transient-Party,125.0,0,0,Check-Out,2017-08-25,2017-08-19,2017-08-19
+118710,City Hotel,0,2,2017,August,34,24,0,1,2,0.0,0,BB,PRT,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118714,City Hotel,0,2,2017,August,34,24,0,1,2,0.0,0,BB,MEX,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118718,City Hotel,0,0,2017,August,34,23,0,2,1,0.0,0,BB,DEU,Offline TA/TO,TA/TO,0,0,0,A,A,3,No Deposit,98.0,,0,Transient-Party,115.0,0,0,Check-Out,2017-08-25,2017-08-23,2017-08-23
+118722,City Hotel,0,2,2017,August,34,24,0,1,2,0.0,0,BB,MEX,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118723,City Hotel,0,2,2017,August,34,24,0,1,2,0.0,0,BB,MEX,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118724,City Hotel,0,2,2017,August,34,24,0,1,2,0.0,0,BB,MEX,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118725,City Hotel,0,2,2017,August,34,24,0,1,2,0.0,0,BB,MEX,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118726,City Hotel,0,2,2017,August,34,24,0,1,1,0.0,0,BB,MEX,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,130.0,0,0,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118727,City Hotel,0,2,2017,August,34,24,0,1,2,0.0,0,BB,MEX,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118728,City Hotel,0,2,2017,August,34,24,0,1,2,0.0,0,BB,MEX,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118731,City Hotel,0,2,2017,August,34,24,0,1,2,0.0,0,BB,MEX,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,140.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118737,City Hotel,0,2,2017,August,34,24,0,1,1,0.0,0,BB,BEL,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,107.1,0,0,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118738,City Hotel,0,2,2017,August,34,24,0,1,1,0.0,0,BB,BEL,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,107.1,0,0,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118739,City Hotel,0,4,2017,August,34,22,0,3,1,0.0,0,SC,DEU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,98.4,0,1,Check-Out,2017-08-25,2017-08-22,2017-08-18
+118740,City Hotel,0,7,2017,August,34,23,0,2,2,0.0,0,HB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,196.5,0,1,Check-Out,2017-08-25,2017-08-23,2017-08-16
+118741,City Hotel,0,3,2017,August,34,24,0,1,1,1.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,119.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-21
+118742,City Hotel,0,0,2017,August,34,24,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,148.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-24
+118753,City Hotel,0,2,2017,August,34,24,0,1,1,0.0,0,BB,ESP,Groups,TA/TO,0,0,0,A,A,0,No Deposit,147.0,,0,Transient-Party,130.0,0,0,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118762,City Hotel,0,1,2017,August,34,24,0,1,2,1.0,0,BB,PRT,Complementary,Direct,0,0,0,A,D,1,No Deposit,,,0,Transient,0.0,0,3,Check-Out,2017-08-25,2017-08-24,2017-08-23
+118765,City Hotel,0,2,2017,August,34,24,0,1,2,1.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,423.0,,0,Transient,113.98,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-22
+118784,City Hotel,0,0,2017,August,34,24,0,1,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,128.0,0,1,Check-Out,2017-08-25,2017-08-24,2017-08-24
+118785,City Hotel,0,6,2017,August,34,23,0,2,1,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,100.0,0,1,Check-Out,2017-08-25,2017-08-23,2017-08-17
+118792,City Hotel,0,8,2017,August,34,23,0,2,2,0.0,0,SC,AUS,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,129.5,0,0,Check-Out,2017-08-25,2017-08-23,2017-08-15
+118797,City Hotel,0,5,2017,August,34,22,0,4,3,0.0,0,BB,ITA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,7.0,,0,Transient,155.61,0,2,Check-Out,2017-08-26,2017-08-22,2017-08-17
+118808,City Hotel,0,22,2017,August,34,24,0,2,2,0.0,0,BB,POL,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,149.5,0,1,Check-Out,2017-08-26,2017-08-24,2017-08-02
+118810,City Hotel,0,2,2017,August,34,25,0,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,D,K,0,No Deposit,,,0,Transient,170.0,0,3,Check-Out,2017-08-26,2017-08-25,2017-08-23
+118819,City Hotel,0,11,2017,August,34,24,0,2,2,0.0,0,BB,ESP,Direct,Direct,0,0,0,A,A,1,No Deposit,14.0,,0,Transient,148.5,1,0,Check-Out,2017-08-26,2017-08-24,2017-08-13
+118821,City Hotel,0,18,2017,August,34,24,0,2,2,1.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,178.5,0,2,Check-Out,2017-08-26,2017-08-24,2017-08-06
+118833,City Hotel,0,6,2017,August,34,25,0,1,2,1.0,0,BB,PRT,Corporate,Corporate,0,0,0,D,E,0,No Deposit,,492.0,0,Transient,169.0,0,1,Check-Out,2017-08-26,2017-08-25,2017-08-19
+118834,City Hotel,0,12,2017,August,34,24,0,2,2,0.0,0,BB,FRA,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,148.5,1,0,Check-Out,2017-08-26,2017-08-24,2017-08-12
+118858,City Hotel,0,18,2017,August,34,23,0,4,2,0.0,0,SC,SWE,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,134.75,0,1,Check-Out,2017-08-27,2017-08-23,2017-08-05
+118878,City Hotel,0,22,2017,August,34,25,0,2,1,0.0,0,HB,DEU,Groups,TA/TO,0,0,0,A,A,1,No Deposit,6.0,,0,Transient-Party,95.5,0,0,Check-Out,2017-08-27,2017-08-25,2017-08-03
+118912,City Hotel,0,6,2017,August,34,24,0,3,2,0.0,0,HB,PRT,Direct,Direct,0,0,0,A,A,1,No Deposit,14.0,,0,Transient,179.0,0,0,Check-Out,2017-08-27,2017-08-24,2017-08-18
+118935,City Hotel,0,2,2017,August,34,26,0,1,2,1.0,0,BB,AUT,Online TA,TA/TO,0,0,0,F,F,1,No Deposit,9.0,,0,Transient,239.0,0,0,Check-Out,2017-08-27,2017-08-26,2017-08-24
+118942,City Hotel,0,9,2017,August,34,25,0,2,2,0.0,0,SC,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,140.0,0,1,Check-Out,2017-08-27,2017-08-25,2017-08-16
+118948,City Hotel,0,0,2017,August,34,25,0,2,1,0.0,0,HB,DEU,Offline TA/TO,TA/TO,0,0,0,D,D,2,No Deposit,6.0,,0,Transient-Party,95.5,0,1,Check-Out,2017-08-27,2017-08-25,2017-08-25
+118958,City Hotel,0,0,2017,August,34,26,0,1,2,2.0,0,BB,PRT,Direct,Direct,0,0,0,F,F,0,No Deposit,,,0,Transient,200.0,0,0,Check-Out,2017-08-27,2017-08-26,2017-08-26
+118962,City Hotel,0,12,2017,August,34,26,0,1,3,0.0,0,BB,USA,Online TA,TA/TO,0,0,0,E,E,0,No Deposit,9.0,,0,Transient,240.0,0,1,Check-Out,2017-08-27,2017-08-26,2017-08-14
+118963,City Hotel,0,1,2017,August,35,27,0,0,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,0.0,0,0,Check-Out,2017-08-27,2017-08-27,2017-08-26
+118964,City Hotel,0,0,2017,August,35,27,1,0,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,80.1,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-27
+118966,City Hotel,0,0,2017,August,35,27,1,0,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,89.0,0,2,Check-Out,2017-08-28,2017-08-27,2017-08-27
+118969,City Hotel,0,0,2017,August,35,27,1,0,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,99.0,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-27
+118977,City Hotel,0,15,2017,August,34,25,1,2,2,0.0,0,BB,GBR,Direct,Direct,0,0,0,D,D,0,No Deposit,,,0,Transient,160.0,0,2,Check-Out,2017-08-28,2017-08-25,2017-08-10
+118978,City Hotel,0,13,2017,August,35,27,1,0,2,0.0,0,SC,BRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,89.0,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-14
+118979,City Hotel,0,16,2017,August,34,25,1,2,2,0.0,0,BB,GBR,Direct,Direct,0,0,0,D,F,1,No Deposit,,,0,Transient,160.0,0,2,Check-Out,2017-08-28,2017-08-25,2017-08-09
+118981,City Hotel,0,0,2017,August,35,27,1,0,2,0.0,0,SC,BRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,80.1,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-27
+118984,City Hotel,0,0,2017,August,35,27,1,0,2,0.0,0,SC,USA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,75.24,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-27
+118986,City Hotel,0,1,2017,August,35,27,1,0,1,0.0,0,BB,CHN,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,71.28,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-26
+118987,City Hotel,0,1,2017,August,35,27,1,0,2,0.0,0,SC,ITA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,80.1,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-26
+118990,City Hotel,0,19,2017,August,35,27,1,0,2,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,109.0,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-08
+118995,City Hotel,0,25,2017,August,35,27,1,0,1,0.0,0,BB,FRA,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,99.0,0,2,Check-Out,2017-08-28,2017-08-27,2017-08-02
+118998,City Hotel,0,5,2017,August,34,24,1,3,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,203.5,0,0,Check-Out,2017-08-28,2017-08-24,2017-08-19
+118999,City Hotel,0,1,2017,August,35,27,1,0,1,0.0,0,SC,ESP,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,80.1,0,0,Check-Out,2017-08-28,2017-08-27,2017-08-26
+119001,City Hotel,0,14,2017,August,34,24,1,3,2,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,127.0,0,1,Check-Out,2017-08-28,2017-08-24,2017-08-10
+119004,City Hotel,0,18,2017,August,34,26,1,1,2,0.0,0,BB,CHE,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,134.5,0,1,Check-Out,2017-08-28,2017-08-26,2017-08-08
+119007,City Hotel,0,1,2017,August,35,27,1,0,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,109.0,0,2,Check-Out,2017-08-28,2017-08-27,2017-08-26
+119008,City Hotel,0,0,2017,August,35,27,1,0,2,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,116.1,0,0,Check-Out,2017-08-28,2017-08-27,2017-08-27
+119014,City Hotel,0,9,2017,August,35,27,1,0,2,0.0,0,SC,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,99.0,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-18
+119015,City Hotel,0,14,2017,August,35,27,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,107.1,1,2,Check-Out,2017-08-28,2017-08-27,2017-08-13
+119022,City Hotel,0,6,2017,August,35,27,1,0,2,1.0,0,SC,IRN,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,134.0,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-21
+119025,City Hotel,0,14,2017,August,35,27,1,0,2,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,109.0,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-13
+119026,City Hotel,0,21,2017,August,35,27,1,0,2,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,109.0,0,0,Check-Out,2017-08-28,2017-08-27,2017-08-06
+119027,City Hotel,0,1,2017,August,35,27,1,0,2,0.0,0,BB,NLD,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,111.2,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-26
+119032,City Hotel,0,25,2017,August,34,26,1,1,3,0.0,0,BB,ESP,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,184.5,0,3,Check-Out,2017-08-28,2017-08-26,2017-08-01
+119034,City Hotel,0,25,2017,August,35,27,1,0,2,0.0,0,SC,NOR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,83.0,,0,Transient,62.03,0,0,Check-Out,2017-08-28,2017-08-27,2017-08-02
+119036,City Hotel,0,1,2017,August,35,27,1,0,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,80.1,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-26
+119039,City Hotel,0,18,2017,August,35,27,1,0,2,0.0,0,BB,POL,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,109.0,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-09
+119040,City Hotel,0,23,2017,August,35,27,1,0,2,0.0,0,BB,BGR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,98.1,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-04
+119042,City Hotel,0,6,2017,August,34,26,1,1,1,0.0,0,BB,PRT,Direct,Direct,0,0,0,B,A,2,No Deposit,,,0,Transient,124.0,0,1,Check-Out,2017-08-28,2017-08-26,2017-08-20
+119044,City Hotel,0,3,2017,August,34,26,1,1,2,0.0,0,BB,PRT,Direct,Direct,0,0,0,B,A,1,No Deposit,,,0,Transient,124.0,0,1,Check-Out,2017-08-28,2017-08-26,2017-08-23
+119046,City Hotel,0,0,2017,August,35,27,1,0,1,0.0,0,BB,CHN,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,95.0,0,0,Check-Out,2017-08-28,2017-08-27,2017-08-27
+119050,City Hotel,0,3,2017,August,35,27,1,0,1,0.0,0,SC,MEX,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,119.0,0,1,Check-Out,2017-08-28,2017-08-27,2017-08-24
+119054,City Hotel,0,8,2017,August,34,26,2,1,2,3.0,0,BB,GBR,Online TA,TA/TO,0,0,0,G,G,0,No Deposit,7.0,,0,Transient,253.51,0,2,Check-Out,2017-08-29,2017-08-26,2017-08-18
+119056,City Hotel,0,17,2017,August,35,27,2,0,2,0.0,0,SC,CN,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,114.5,0,1,Check-Out,2017-08-29,2017-08-27,2017-08-10
+119067,City Hotel,0,0,2017,August,35,28,1,0,2,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,140.0,0,1,Check-Out,2017-08-29,2017-08-28,2017-08-28
+119070,City Hotel,0,0,2017,August,35,29,0,1,2,3.0,0,BB,GBR,Offline TA/TO,TA/TO,1,0,0,G,G,3,No Deposit,229.0,,0,Group,270.0,0,1,Check-Out,2017-08-30,2017-08-29,2017-08-29
+119074,City Hotel,0,10,2017,August,35,27,2,0,2,0.0,0,SC,DEU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,119.5,0,2,Check-Out,2017-08-29,2017-08-27,2017-08-17
+119084,City Hotel,0,0,2017,August,35,28,1,0,2,0.0,0,BB,FRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,140.0,0,2,Check-Out,2017-08-29,2017-08-28,2017-08-28
+119092,City Hotel,0,21,2017,August,35,28,1,0,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,149.0,0,1,Check-Out,2017-08-29,2017-08-28,2017-08-07
+119093,City Hotel,0,14,2017,August,34,24,2,3,2,1.0,0,BB,GBR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,165.6,0,2,Check-Out,2017-08-29,2017-08-24,2017-08-10
+119098,City Hotel,0,16,2017,August,34,26,2,1,2,0.0,1,SC,FRA,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,126.0,0,2,Check-Out,2017-08-29,2017-08-26,2017-08-10
+119099,City Hotel,0,26,2017,August,35,27,2,0,2,0.0,0,BB,BRA,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,143.5,0,2,Check-Out,2017-08-29,2017-08-27,2017-08-01
+119101,City Hotel,0,10,2017,August,35,27,2,0,3,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,E,E,1,No Deposit,9.0,,0,Transient,214.5,0,1,Check-Out,2017-08-29,2017-08-27,2017-08-17
+119104,City Hotel,0,15,2017,August,34,25,2,2,2,0.0,0,BB,USA,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,132.53,0,2,Check-Out,2017-08-29,2017-08-25,2017-08-10
+119105,City Hotel,0,14,2017,August,34,24,2,3,2,0.0,0,SC,GBR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,125.6,0,1,Check-Out,2017-08-29,2017-08-24,2017-08-10
+119106,City Hotel,0,0,2017,August,35,28,1,0,2,1.0,1,BB,PRT,Direct,Direct,0,0,0,D,D,2,No Deposit,14.0,,0,Transient,150.0,0,0,Check-Out,2017-08-29,2017-08-28,2017-08-28
+119110,City Hotel,0,16,2017,August,34,26,2,1,1,0.0,0,SC,GBR,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,90.4,0,1,Check-Out,2017-08-29,2017-08-26,2017-08-10
+119114,City Hotel,0,8,2017,August,34,25,2,3,2,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,7.0,,0,Transient,115.37,0,1,Check-Out,2017-08-30,2017-08-25,2017-08-17
+119118,City Hotel,0,1,2017,August,35,29,0,1,1,0.0,0,BB,DEU,Corporate,Corporate,0,0,0,D,D,0,No Deposit,,451.0,0,Transient,95.0,0,0,Check-Out,2017-08-30,2017-08-29,2017-08-28
+119124,City Hotel,0,0,2017,August,35,29,0,1,1,0.0,0,BB,PRT,Complementary,Corporate,0,0,0,A,A,0,No Deposit,,72.0,0,Transient,0.0,0,2,Check-Out,2017-08-30,2017-08-29,2017-08-29
+119132,City Hotel,0,19,2017,August,35,29,0,1,1,0.0,0,SC,GBR,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,140.0,0,2,Check-Out,2017-08-30,2017-08-29,2017-08-10
+119133,City Hotel,0,19,2017,August,35,29,0,1,1,0.0,0,SC,GBR,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,140.0,0,2,Check-Out,2017-08-30,2017-08-29,2017-08-10
+119134,City Hotel,0,19,2017,August,35,29,0,1,1,0.0,0,SC,GBR,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,140.0,0,2,Check-Out,2017-08-30,2017-08-29,2017-08-10
+119135,City Hotel,0,4,2017,August,35,28,1,1,3,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,219.0,0,2,Check-Out,2017-08-30,2017-08-28,2017-08-24
+119137,City Hotel,0,0,2017,August,35,29,0,1,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,140.0,0,0,Check-Out,2017-08-30,2017-08-29,2017-08-29
+119138,City Hotel,0,0,2017,August,34,23,2,5,2,0.0,0,HB,BEL,Offline TA/TO,TA/TO,0,0,0,A,A,0,No Deposit,394.0,,0,Transient,112.1,0,0,Check-Out,2017-08-30,2017-08-23,2017-08-23
+119139,City Hotel,0,6,2017,August,35,27,2,1,3,0.0,0,BB,PRT,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,196.33,0,2,Check-Out,2017-08-30,2017-08-27,2017-08-21
+119144,City Hotel,0,5,2017,August,35,29,0,1,2,2.0,0,BB,DEU,Online TA,TA/TO,0,0,0,F,F,0,No Deposit,9.0,,0,Transient,259.0,0,0,Check-Out,2017-08-30,2017-08-29,2017-08-24
+119147,City Hotel,0,13,2017,August,34,26,2,2,2,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,157.25,0,1,Check-Out,2017-08-30,2017-08-26,2017-08-13
+119151,City Hotel,0,0,2017,August,35,29,0,1,2,2.0,0,BB,NLD,Direct,Direct,0,0,0,G,G,0,No Deposit,,,0,Transient,270.0,0,0,Check-Out,2017-08-30,2017-08-29,2017-08-29
+119153,City Hotel,0,22,2017,August,35,30,0,3,2,2.0,0,HB,ESP,Online TA,TA/TO,0,0,0,F,G,1,No Deposit,9.0,,0,Transient,61.8,0,0,Check-Out,2017-09-02,2017-08-30,2017-08-08
+119166,City Hotel,0,0,2017,August,35,30,0,1,1,0.0,0,BB,BRA,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,140.0,0,0,Check-Out,2017-08-31,2017-08-30,2017-08-30
+119175,City Hotel,0,19,2017,August,35,29,0,2,1,0.0,0,SC,DEU,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,9.0,,0,Transient,140.0,0,0,Check-Out,2017-08-31,2017-08-29,2017-08-10
+119176,City Hotel,0,5,2017,August,35,29,0,2,1,0.0,0,HB,PRT,Groups,TA/TO,0,0,0,A,A,4,No Deposit,19.0,,0,Transient-Party,104.0,0,0,Check-Out,2017-08-31,2017-08-29,2017-08-24
+119177,City Hotel,0,3,2017,August,35,28,1,2,1,0.0,0,SC,LBN,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,140.0,0,2,Check-Out,2017-08-31,2017-08-28,2017-08-25
+119198,City Hotel,0,27,2017,August,35,28,1,3,2,0.0,0,BB,DEU,Direct,Direct,0,0,0,D,D,2,No Deposit,14.0,,0,Transient,169.0,1,0,Check-Out,2017-09-01,2017-08-28,2017-08-01
+119215,City Hotel,0,2,2017,August,35,31,0,1,1,0.0,0,SC,LBN,Direct,Direct,0,0,0,A,A,0,No Deposit,,,0,Transient,140.0,0,2,Check-Out,2017-09-01,2017-08-31,2017-08-29
+119216,City Hotel,0,29,2017,August,35,30,0,2,1,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,10.0,,0,Transient,95.0,0,0,Check-Out,2017-09-01,2017-08-30,2017-08-01
+119217,City Hotel,0,29,2017,August,35,30,0,2,1,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,A,1,No Deposit,10.0,,0,Transient,95.0,0,0,Check-Out,2017-09-01,2017-08-30,2017-08-01
+119223,City Hotel,0,6,2017,August,35,28,1,3,2,2.0,0,BB,FRA,Online TA,TA/TO,0,0,0,F,F,1,No Deposit,7.0,,0,Transient,190.0,0,1,Check-Out,2017-09-01,2017-08-28,2017-08-22
+119233,City Hotel,0,28,2017,August,35,30,0,2,3,0.0,0,BB,BRA,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,210.0,0,0,Check-Out,2017-09-01,2017-08-30,2017-08-02
+119237,City Hotel,0,3,2017,August,35,31,0,1,2,0.0,0,SC,PRT,Online TA,TA/TO,0,0,0,A,A,2,No Deposit,9.0,,0,Transient,140.0,0,1,Check-Out,2017-09-01,2017-08-31,2017-08-28
+119248,City Hotel,0,22,2017,August,35,29,0,3,1,0.0,0,BB,PRT,Corporate,Corporate,0,0,0,A,A,0,No Deposit,,485.0,0,Transient,75.0,0,4,Check-Out,2017-09-01,2017-08-29,2017-08-07
+119254,City Hotel,0,9,2017,August,35,28,1,3,2,2.0,0,BB,ESP,Direct,Direct,0,0,0,E,E,0,No Deposit,14.0,,0,Transient,210.0,0,0,Check-Out,2017-09-01,2017-08-28,2017-08-19
+119270,City Hotel,0,0,2017,August,35,29,0,3,2,1.0,0,BB,ROU,Online TA,TA/TO,0,0,0,A,D,1,No Deposit,9.0,,0,Transient,135.0,0,2,Check-Out,2017-09-01,2017-08-29,2017-08-29
+119272,City Hotel,0,22,2017,August,35,28,1,3,2,0.0,0,BB,GBR,Direct,Direct,0,0,0,D,D,0,No Deposit,14.0,,0,Transient,160.0,0,0,Check-Out,2017-09-01,2017-08-28,2017-08-06
+119289,City Hotel,0,25,2017,August,35,30,0,3,3,0.0,0,BB,ITA,Online TA,TA/TO,0,0,0,E,F,1,No Deposit,9.0,,0,Transient,236.33,0,3,Check-Out,2017-09-02,2017-08-30,2017-08-05
+119299,City Hotel,0,26,2017,August,35,29,0,4,3,0.0,0,BB,GBR,Online TA,TA/TO,0,0,0,D,D,0,No Deposit,9.0,,0,Transient,207.25,0,0,Check-Out,2017-09-02,2017-08-29,2017-08-03
+119304,City Hotel,0,4,2017,August,35,30,0,3,1,0.0,0,BB,JPN,Direct,Direct,0,0,0,D,D,1,No Deposit,14.0,,0,Transient,140.7,0,0,Check-Out,2017-09-02,2017-08-30,2017-08-26
+119312,City Hotel,0,4,2017,August,35,31,0,3,2,0.0,0,SC,FRA,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,132.67,0,1,Check-Out,2017-09-03,2017-08-31,2017-08-27
+119316,City Hotel,0,1,2017,August,35,31,0,3,2,0.0,0,BB,GBR,Offline TA/TO,TA/TO,0,0,0,E,E,0,No Deposit,28.0,,0,Transient,109.5,0,1,Check-Out,2017-09-03,2017-08-31,2017-08-30
+119324,City Hotel,0,8,2017,August,35,31,0,3,2,0.0,0,BB,ITA,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,119.4,0,0,Check-Out,2017-09-03,2017-08-31,2017-08-23
+119329,City Hotel,0,30,2017,August,35,31,0,3,2,0.0,0,BB,DEU,Direct,Direct,0,0,0,A,A,0,No Deposit,14.0,,0,Transient,151.67,1,0,Check-Out,2017-09-03,2017-08-31,2017-08-01
+119332,City Hotel,0,27,2017,August,35,31,0,3,2,0.0,0,BB,DEU,Online TA,TA/TO,0,0,0,A,A,0,No Deposit,9.0,,0,Transient,152.67,0,1,Check-Out,2017-09-03,2017-08-31,2017-08-04
+119384,City Hotel,0,21,2017,August,35,30,2,5,2,0.0,0,BB,BEL,Offline TA/TO,TA/TO,0,0,0,A,A,0,No Deposit,394.0,,0,Transient,96.14,0,2,Check-Out,2017-09-06,2017-08-30,2017-08-09
+119385,City Hotel,0,23,2017,August,35,30,2,5,2,0.0,0,BB,BEL,Offline TA/TO,TA/TO,0,0,0,A,A,0,No Deposit,394.0,,0,Transient,96.14,0,0,Check-Out,2017-09-06,2017-08-30,2017-08-07
