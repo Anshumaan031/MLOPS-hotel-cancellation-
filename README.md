@@ -49,8 +49,6 @@ To address the identified problem and unlock the business values, our proposed s
 
 [Trello](https://trello.com/guide)
 
-[Trello](https://trello.com/guide)
-
 [Agile](https://document360.com/blog/agile-documentation/)
 
 ## Installation
