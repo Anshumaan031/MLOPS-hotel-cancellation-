@@ -15,7 +15,7 @@ Therefore, there is a pressing need for data-driven solutions that enable hotels
 
 To address the identified problem and unlock the business values, our proposed solution entails the development of a machine learning model using advanced analytics algorithms oto predict future booking cancellations  with a high degree of accuracy. To streamline the process of development and deployment, we have designed a robust pipeline framework incorporating DataOps, MLOps, and CI/CD practices. This pipeline automates data collection, transformation, model training, rigorous runtime environment testing, and seamless production deployment. This orchestration enables the business to automate data ingestion at (simulated) regular intervals and real-time calculation of cancellation probabilities. These actionable insights along with other relevant statistical analysis will be made available on a flask website, enablingfor effective resource planning and decision-making by hotel management.
 
-![alt text](Assets/image.png)
+![alt text](Assets/image.jpg)
 
 
 
