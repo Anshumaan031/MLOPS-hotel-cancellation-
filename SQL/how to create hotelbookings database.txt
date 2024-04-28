@@ -1,0 +1,7 @@
+Run the following command lines in ubuntu terminal:
+
+mysql -u root -p 
+<ENTER YOUR ROOT PASSWORD> 
+create schema hotelbookings;
+mysql -u root -p hotelbookings < /home/sid685/sql/hotelbookings.sql
+quit
