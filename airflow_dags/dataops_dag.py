@@ -34,6 +34,7 @@ def clean_datawarehouse():
     cursor.execute('DROP TABLE IF EXISTS data_profiling_before;')
     cursor.execute('DROP TABLE IF EXISTS data_profiling_after;')
     cursor.execute('DROP TABLE IF EXISTS booking_predictions;')
+    cursor.execute('DROP TABLE IF EXISTS raw_booking_predictions;')
     print("=======================")
     print("Cleared all the existing tables in the database hotel_datawarehouse")
     print("\n")
@@ -74,12 +75,49 @@ def create_datawarehouse_and_upload_hist():
     print(df_hist.shape)
     print(df_hist.columns)
 
+    # loading raw data into raw_hotel_bookings database
+    df_hist.to_sql(name='raw_hotel_bookings', con=db_datawarehouse, if_exists='replace', index=False)
+
+    # doing data transformations for historical data here (these transformation are usually carried out as different steps of the DataOps DAG, but for historical data, we assume the data has already been transformed)
+    df_hist_transformed = df_hist.copy()
+    numerical_columns = df_hist_transformed.select_dtypes(include=[np.number]).columns
+    df_hist_transformed[numerical_columns] = df_hist_transformed[numerical_columns].clip(lower=0)
+    df_hist_transformed['hotel'] = df_hist_transformed['hotel'].apply(lambda x: x if x in ["Resort Hotel", "City Hotel"] else "City Hotel")
+    df_hist_transformed['children'] = df_hist_transformed['children'].fillna(lambda x: 0)
+    df_hist_transformed['babies'] = df_hist_transformed['babies'].fillna(lambda x: 0)
+    valid_meals = ['BB', 'HB', 'FB', 'SC', 'SCD']
+    df_hist_transformed['meal'] = df_hist_transformed['meal'].apply(lambda x: x if x in valid_meals else "Undefined")
+    valid_market_segments = ['Direct', 'Corporate', 'Online TA', 'Offline TA/TO', 'Complementary', 'Groups']
+    df_hist_transformed['market_segment'] = df_hist_transformed['market_segment'].apply(lambda x: x if x in valid_market_segments else "Undefined")
+    valid_distribution_channels = ['Direct', 'Corporate', 'TA/TO', 'GDS']
+    df_hist_transformed['distribution_channel'] = df_hist_transformed['distribution_channel'].apply(lambda x: x if x in valid_distribution_channels else "Undefined")
+    df_hist_transformed['is_repeated_guest'] = df_hist_transformed['is_repeated_guest'].apply(lambda x: 1 if x == 1 else 0)
+    df_hist_transformed['deposit_type'] = df_hist_transformed['deposit_type'].apply(lambda x: x if x in ['No Deposit', 'Non Refund', 'Refundable'] else "No Deposit")
+    df_hist_transformed['customer_type'] = df_hist_transformed['customer_type'].apply(lambda x: x if x in ['Transient', 'Contract', 'Group', 'Transient-Party'] else "Transient")
+    df_hist_transformed['required_car_parking_spaces'] = df_hist_transformed['required_car_parking_spaces'].apply(lambda x: x if x in [0, 1] else 0)
+    df_hist_transformed['required_car_parking_spaces'] = df_hist_transformed['required_car_parking_spaces'].apply(lambda x: x if x in [0, 1] else 0)
+    df_hist_transformed['total_of_special_requests'] = df_hist_transformed['total_of_special_requests'].apply(lambda x: x if x >= 0 else 0)
+    df_hist_transformed['arrival_date'] = pd.to_datetime(df_hist_transformed['arrival_date_year'].astype(str) + '-' +
+                                        df_hist_transformed['arrival_date_month'] + '-' +
+                                        df_hist_transformed['arrival_date_day_of_month'].astype(str), format='%Y-%B-%d')
+    df_hist_transformed['booking_date'] = (df_hist_transformed['arrival_date'] - pd.to_timedelta(df_hist_transformed['lead_time'], unit='d')).dt.date
+    seasons = {
+    'January': 'Winter', 'February': 'Winter', 'March': 'Spring', 
+    'April': 'Spring', 'May': 'Spring', 'June': 'Summer', 
+    'July': 'Summer', 'August': 'Summer', 'September': 'Fall', 
+    'October': 'Fall', 'November': 'Fall', 'December': 'Winter'
+    }
+    df_hist_transformed['season'] = df_hist_transformed['arrival_date_month'].map(seasons)
+
+    print(df_hist_transformed.shape)
+    print(df_hist_transformed.columns)
+
     # load data into hotel_datawarehouse database
-    df_hist.to_sql(name='hotel_bookings', con=db_datawarehouse, if_exists='replace')
+    df_hist_transformed.to_sql(name='hotel_bookings', con=db_datawarehouse, if_exists='replace', index=False)
 
     # load data into data_profiling_before database
-    data_report_hist = data_quality_report(df_hist)
-    data_report_hist.to_sql(name='data_profiling_before', con=db_datawarehouse, if_exists='replace')
+    data_report_hist = data_quality_report(df_hist_transformed)
+    data_report_hist.to_sql(name='data_profiling_before', con=db_datawarehouse, if_exists='replace', index=False)
 
     # create an empty booking_predictions database
     df_bookingpred = pd.DataFrame(columns=['booking_id', 'predicted_cancellation', 'probability'])
@@ -87,7 +125,7 @@ def create_datawarehouse_and_upload_hist():
 
     db_hotelbookings.close()
     db_datawarehouse.close()
-    print("Created and populated the historical data from table hotel_bookings in the database hotel_datawarehouse, shape: {}".format(df_hist.shape))
+    print("Created and populated the historical data from table hotel_bookings in the database hotel_datawarehouse, shape: {}".format(df_hist_transformed.shape))
     print("\n")
     return
 
@@ -115,6 +153,12 @@ def initial_load_current_data():
     str_sql_bookings = 'SELECT * FROM hotel_bookings;'
     df = pd.read_sql(sql=str_sql_bookings, con=db_hotelbookings)
 
+    actual_columns = df.shape[1]
+    if actual_columns != expected_num_columns:
+        raise AirflowFailException(f"DataFrame has {actual_columns} columns, but expected {expected_num_columns}.")
+    else:
+        print(f"DataFrame has the expected number of columns: {expected_num_columns}.")
+
     print("=======================")
     print(current_date)
     df['arrival_date'] = pd.to_datetime(df['arrival_date_year'].astype(str) + '-' +
@@ -124,7 +168,8 @@ def initial_load_current_data():
     df_current = df[df['booking_date'] <= pd.Timestamp(current_date)]
     df_current.drop(['arrival_date', 'booking_date'], axis=1, inplace=True)
 
-    df_current.to_sql(name='hotel_bookings', con=db_datawarehouse, if_exists='replace')
+    df_current.to_sql(name='hotel_bookings', con=db_datawarehouse, if_exists='replace', index=False)
+    df_current.to_sql(name='raw_hotel_bookings', con=db_datawarehouse, if_exists='replace', index=False)
     db_hotelbookings.close()
     db_datawarehouse.close()
     print("Initial load of data done into the hotel_datawarehouse database:", df_current.shape)
@@ -194,7 +239,7 @@ def data_profiling_before():
 
     data_report = data_quality_report(df_current)
     data_report = data_report.iloc[1:, :]
-    data_report.to_sql(name='data_profiling_before', con=db_datawarehouse, if_exists='replace')
+    data_report.to_sql(name='data_profiling_before', con=db_datawarehouse, if_exists='replace', index=False)
     print("=======================")
     print("Initial data profiling done - check data_profiling_before table in the database hotel_datawarehouse")
     print("\n")
@@ -224,7 +269,7 @@ def kpi_threshold_check():
     df_current = df_current[df_current['adults'].between(0, 100)]
     df_current = df_current[df_current['stays_in_weekend_nights'].between(0, 20)]
     df_current = df_current[df_current['stays_in_week_nights'].between(0, 50)]
-    df_current = df_current[df_current['required_car_parking_spaces'].between(0, 8)] 
+    df_current = df_current[df_current['required_car_parking_spaces'].between(0, 8)]  # Assuming 'required_car_park' refers to this column
 
     # Calculate compliance rate
     final_row_count = len(df_current)
@@ -251,12 +296,11 @@ def replace_negative_values():
 
     str_sql_bookings = 'SELECT * FROM hotel_bookings;'
     df = pd.read_sql(sql=str_sql_bookings, con=db_datawarehouse)
-    df = df.iloc[:, 1:]
 
     numerical_columns = df.select_dtypes(include=[np.number]).columns
     df[numerical_columns] = df[numerical_columns].clip(lower=0)
 
-    df.to_sql(name='hotel_bookings', con=db_datawarehouse, if_exists='replace')
+    df.to_sql(name='hotel_bookings', con=db_datawarehouse, if_exists='replace', index=False)
     print("=======================")
     print(df.shape)
     print(df.columns)
@@ -275,7 +319,6 @@ def handling_hotel_col_nulls():
     df = pd.read_sql(sql=str_sql_bookings, con=db_datawarehouse)
 
     df['hotel'] = df['hotel'].apply(lambda x: x if x in ["Resort Hotel", "City Hotel"] else "City Hotel")
-    df = df.iloc[:, 1:]
 
     df.to_sql(name='hotel_bookings', con=db_datawarehouse, if_exists='replace', index=False)
     print("=======================")
@@ -529,7 +572,7 @@ def data_profiling_after():
     df = pd.read_sql(sql=str_sql_bookings, con=db_datawarehouse)
 
     data_report = data_quality_report(df)
-    data_report.to_sql(name='data_profiling_after', con=db_datawarehouse, if_exists='replace')
+    data_report.to_sql(name='data_profiling_after', con=db_datawarehouse, if_exists='replace', index=False)
     print("=======================")
     print("Initial data profiling done - check data_profiling_after table in the database hotel_datawarehouse")
     print("\n")
@@ -552,6 +595,7 @@ def handling_target_feature():
     current_date = get_current_date(current_period)
     cancelled_rows = df[(df['booking_date'] == pd.Timestamp(current_date)) & (df['booking_date'] == df['reservation_status_date']) & (df['reservation_status'] == 'Canceled')]
     print(len(cancelled_rows))
+    # df['is_canceled'] = df.apply(lambda row: 1 if (['booking_date'] == pd.Timestamp(current_date) and row['booking_date'] == row['reservation_status_date'] and row['reservation_status'] == 'Canceled') else 0, axis=1)
     print(df['is_canceled'].value_counts())
     for _,row in df.iterrows():
         if row['booking_date'] == pd.Timestamp(current_date):
@@ -585,7 +629,7 @@ def check_and_update_current_period():
 
 
 with DAG(
-    'gp_dataops',
+    'gp_dataops_2',
     default_args={
         'depends_on_past': False,
         'email': ['685@doonschool.com'],
@@ -594,7 +638,7 @@ with DAG(
         'retries': 1,
         'retry_delay': timedelta(minutes=5),
     },
-    description='Group Project Data Ops',
+    description='Group Project Data Ops 2',
 
     # ┌───────────── minute (0–59)
     # │ ┌───────────── hour (0–23)
@@ -612,6 +656,7 @@ with DAG(
     catchup=False,
     tags=["group_project"],
 ) as dag:
+    # define tasks by instantiating operators
     clean_datawarehouse = PythonOperator(
         task_id='clean_datawarehouse',
         python_callable=clean_datawarehouse

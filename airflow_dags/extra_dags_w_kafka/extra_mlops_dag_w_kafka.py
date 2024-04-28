@@ -24,6 +24,9 @@ import subprocess
 import time
 from kafka import KafkaProducer, KafkaConsumer
 
+MLOPS_TOPIC = 'mlops_topic'
+# KAFKA_BROKER_URL = 'localhost:9092'
+KAFKA_BROKER_URL = '172.29.68.128:9092'
 
 def get_current_date(current_period):
     current_period_formatted = '{:02d}'.format(current_period)
@@ -130,7 +133,7 @@ def input_drift_detection():
     message_outliers_binary = []
 
     for index, row in outliers_df.iterrows():
-        if row.any():
+        if row.any(): 
             booking_id = df.loc[index, 'booking_id']
             outlier_columns = row[row].index.tolist()
             outlier_values = df.loc[index, outlier_columns].to_dict()
@@ -173,6 +176,7 @@ def input_drift_detection():
     p_value_threshold = 0.01
 
     for col in num_cols:
+        # Perform the T-test
         t_stat, p_val_ttest = stats.ttest_ind(
             df_hist[col].dropna(),
             df[col].dropna(),
@@ -180,6 +184,7 @@ def input_drift_detection():
         )
         p_values_ttest[col] = p_val_ttest
         
+        # Perform the Kolmogorov-Smirnov test
         ks_stat, p_val_ks = stats.ks_2samp(
             df_hist[col].dropna(),
             df[col].dropna()
@@ -196,7 +201,7 @@ def input_drift_detection():
             p_values_ttest[col], 
             means[col][0],
             means[col][1],
-            ((means[col][1] - means[col][0]) / means[col][0] * 100) if means[col][0] != 0 else 'Infinity' 
+            ((means[col][1] - means[col][0]) / means[col][0] * 100) if means[col][0] != 0 else 'Infinity'
         ) 
         for col in num_cols 
         if p_values_ttest[col] < p_value_threshold
@@ -340,7 +345,6 @@ def preprocess_test_data(input_df):
         if col in test_data.columns:
             test_data[col] = np.log(test_data[col] + 1)
     
-    # columns_to_drop = ['booking_id', 'arrival_date', 'booking_date']
     columns_to_drop = ['arrival_date', 'booking_date']
     test_data.drop(columns=columns_to_drop, inplace=True)
     
@@ -395,8 +399,9 @@ def make_prediction(row):
     return response.json()
 
 # only for testing purposes
-def dummy_make_prediction():
+def dummy_make_prediction(row):
     response = {'prediction': 'Not Canceled', 'probability': 0.5081928794207051}
+    print("API call successful for booking {}!".format(row['booking_id']))
     return json.loads(json.dumps(response))
 
 
@@ -427,9 +432,11 @@ def show_prediction():
     current_bookingpred_ids = get_existing_predictions()
     engine = create_engine('mysql://root:password@localhost:3306/hotel_datawarehouse', echo=False)
     db_datawarehouse = engine.connect()
-    df = df.head(5) # taking only first 5 rows for making predictions as we are using free heroku app which allows limited API calls per day
+    df = df.head(5) # we do this because we are using the free version of heroku, and can only a certain amount of API calls per day. In a real environment, this is not needed. So we take 5 bookings per simulated day for demonstration purposes
+    # df_temp = df.copy()
     df = preprocess_test_data(df)
     prediction_df = pd.DataFrame(columns=['booking_id', 'predicted_cancellation'])
+    # booking_ids = df_temp['booking_id']
     booking_ids = df['booking_id']
     print(booking_ids)
     predictions = []
@@ -437,10 +444,11 @@ def show_prediction():
     count = 0
     for index, row in df.iterrows():
         pred = make_prediction(row)
-        # pred = dummy_make_prediction()
+        # pred = dummy_make_prediction(row)
         predictions.append(pred['prediction'])
         probabilites.append(pred['probability'])
-        if count > 0:
+        # this is just an extra condition to enforce the 5 API calls per simulated day as talked earlier (since we are using free version of Heroku)
+        if count > 4:
             break
         count = count + 1
 
@@ -475,15 +483,10 @@ def check_initial_period():
     else:
         return 'end'
 
-
-MLOPS_TOPIC = 'mlops_topic'
-# KAFKA_BROKER_URL = 'localhost:9092'
-KAFKA_BROKER_URL = '172.29.68.128:9092'
-
 def consume_message(**context):
     consumer = KafkaConsumer(MLOPS_TOPIC, bootstrap_servers=KAFKA_BROKER_URL, group_id='mlops_group', consumer_timeout_ms=420000)
     for message in consumer:
-        # Trigger the 'start' task in MLOps DAG when message is received
+        print(message)
         # context['task_instance'].xcom_push(key='kafka_message', value=message.value)
         break
         # return 'start'
@@ -493,7 +496,7 @@ def consume_message(**context):
 
 
 with DAG(
-    'gp_mlops',
+    'gp_mlops_2',
     default_args={
         'depends_on_past': False,
         'email': ['685@doonschool.com'],
@@ -522,6 +525,7 @@ with DAG(
 ) as dag:
     
     start = DummyOperator(task_id='start')
+    # middle = DummyOperator(task_id='middle')
     end = DummyOperator(task_id='end')
 
     input_drift_detection = PythonOperator(
@@ -534,22 +538,15 @@ with DAG(
         python_callable=show_prediction
     )
 
-    consume_message_task = PythonOperator(
-        task_id='consume_message_task',
-        python_callable=consume_message,
-        provide_context=True,
-        trigger_rule='all_done'
+    wait_for_dataops_task = ExternalTaskSensor(
+        task_id='wait_for_dataops_task',
+        external_dag_id='gp_dataops_2',
+        external_task_id='data_profiling_after',
+        timeout=510,
+        mode='reschedule',
+        poke_interval=30,
+        dag=dag,
     )
-
-    # wait_for_dataops_task = ExternalTaskSensor(
-    #     task_id='wait_for_dataops_task',
-    #     external_dag_id='gp_dataops_2',
-    #     external_task_id='data_profiling_after',
-    #     timeout=510,
-    #     mode='reschedule',
-    #     poke_interval=30,
-    #     dag=dag,
-    # )
 
     branch_task_check_initial_period = BranchPythonOperator(
         task_id='check_initial_period',
@@ -557,5 +554,12 @@ with DAG(
         python_callable=check_initial_period
     )
 
-    start >> branch_task_check_initial_period >> [consume_message_task, end]
-    consume_message_task >> input_drift_detection >> show_prediction >> end
+    consume_message_task = PythonOperator(
+        task_id='consume_message_task',
+        python_callable=consume_message,
+        provide_context=True,
+        trigger_rule='all_done'
+    )
+
+    start >> consume_message_task >> branch_task_check_initial_period >> [wait_for_dataops_task, end]
+    wait_for_dataops_task >> input_drift_detection >> show_prediction >> end
